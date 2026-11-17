@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Makes the interface scale correctly on phones/tablets. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>ClipBot — Stay in the moment. Keep the highlights.</title>
+    <meta name="description" content="Scout streams, shortlist highlights and keep the final creative call. Explore ClipBot and start your workspace.">
+
+    <!-- Our own stylesheet. -->
+    <link rel="stylesheet" href="./css/clipbot.css" />
+    <link rel="stylesheet" href="./css/publishing-queue.css" />
+    <link rel="stylesheet" href="./css/stream-interaction.css">
+    <link rel="stylesheet" href="./css/dashboard-metrics.css">
+    <link rel="stylesheet" href="./css/clip-preview.css">
+    <link rel="stylesheet" href="./css/account-profile.css">
+    <link rel="stylesheet" href="./css/password-policy.css">
+<link rel="stylesheet" href="./css/diagnostics-cleanup.css">
+<link rel="stylesheet" href="./css/launch-cleanup.css">
+    <link rel="stylesheet" href="./showcase/landing.css" />
+  </head>
+
+  <body>
+    <div id="auth-root"></div><div class="app-shell" hidden>
+      <!-- Left navigation -->
+      <aside class="sidebar">
+        <div class="brand">
+          <span class="brand-clip">CLIP</span><span class="brand-bot">BOT</span>
+        </div>
+
+        <nav class="nav">
+          <button class="nav-item active" data-view="dashboard">
+            Dashboard
+          </button>
+
+          <button class="nav-item" data-view="scouting">Scouting</button>
+          <button class="nav-item" data-view="streamers">Streamers</button>
+
+          <button class="nav-item" data-view="clips">Clips</button>
+
+          <button class="nav-item" data-view="processing">Processing</button>
+
+          <button class="nav-item" data-view="publishing">Publishing</button>
+
+          <div class="nav-divider"></div>
+
+          <button class="nav-item" data-view="connections">Connect Accounts</button>
+          <button class="nav-item" data-view="logs">Logs</button>
+          <button class="nav-item" data-view="usage">Usage</button>
+          <button class="nav-item" data-view="davey">Davey<span id="davey-indicator" class="notification-dot hidden"></span></button>
+
+          <div class="nav-divider"></div>
+          <button class="nav-item" data-view="reports">Reports &amp; Feedback</button>
+          <div class="nav-spacer"></div><div class="nav-divider"></div><div class="sidebar-policies"><a href="/terms" target="_blank" rel="noopener noreferrer">Terms of Service</a><a href="/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a><a href="/acceptable-use" target="_blank" rel="noopener noreferrer">Acceptable Use Policy</a></div>
+        </nav>
+      </aside>
+
+      <!-- Everything to the right of the sidebar -->
+      <main class="main-area">
+        <header class="topbar">
+          <div>
+            <h1 id="page-title">Dashboard</h1>
+            <p id="page-subtitle">ClipBot control center</p>
+          </div>
+
+          <div class="topbar-status">
+            <div class="companion-controls" data-companion-controls><button class="clipbot-start" data-companion-action="start">Start ClipBot</button><button class="clipbot-stop" data-companion-action="stop" disabled>Stop ClipBot</button><span class="companion-state"><span class="status-dot"></span>Offline</span></div>
+
+            <button class="account-button" data-open-view="account">Account</button>
+          </div>
+        </header>
+
+        <!--
+                Individual pages will eventually render inside here.
+            -->
+        <section id="app-content" class="content">
+          <div class="welcome-card">
+            <p class="eyebrow">CLIPBOT SAAS</p>
+
+            <h2>Welcome to the new ClipBot.</h2>
+
+            <p>
+              Your clipping, learning, processing, and publishing workspace will
+              live here.
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <p class="companion-header-message" data-companion-header-message role="status"></p>
+    <dialog class="pricing-notice connection-dialog" data-companion-dialog aria-labelledby="companion-title"></dialog>
+    <dialog class="pricing-notice connection-dialog" data-onboarding-dialog aria-labelledby="onboarding-title"></dialog>
+    <dialog class="pricing-notice account-dialog" data-custom-checkout-dialog aria-labelledby="custom-checkout-title"></dialog>
+    <script src="/js/visitor-presence.js" defer></script>
+    <script type="module" src="./js/app.js"></script>
+  </body>
+</html>

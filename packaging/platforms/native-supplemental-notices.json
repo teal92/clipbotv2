@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "records": [
+    {
+      "package": "ctranslate2",
+      "version": "4.8.2",
+      "path": "packaging/licenses/packages/ctranslate2/upstream-LICENSE.txt",
+      "sha256": "54aa79d9fe3c09e67a16dcd95b9e88676405a6ec174efda31036983cf7672ecb",
+      "source": "https://raw.githubusercontent.com/OpenNMT/CTranslate2/d44d2d069eb88c7b7804da864c10c201501cb4a9/LICENSE",
+      "sourceCommit": "d44d2d069eb88c7b7804da864c10c201501cb4a9",
+      "sourceTag": "v4.8.2"
+    },
+    {
+      "package": "flatbuffers",
+      "version": "25.12.19",
+      "path": "packaging/licenses/packages/flatbuffers/upstream-LICENSE.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "source": "https://raw.githubusercontent.com/google/flatbuffers/7e163021e59cca4f8e1e35a7c828b5c6b7915953/LICENSE",
+      "sourceCommit": "7e163021e59cca4f8e1e35a7c828b5c6b7915953",
+      "sourceTag": "v25.12.19"
+    },
+    {
+      "package": "tokenizers",
+      "version": "0.23.3",
+      "path": "packaging/licenses/packages/tokenizers/upstream-LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "source": "https://raw.githubusercontent.com/huggingface/tokenizers/301277072263fb3830eb66eec7e47adadf76f1dc/LICENSE",
+      "sourceCommit": "301277072263fb3830eb66eec7e47adadf76f1dc",
+      "sourceTag": "v0.23.3"
+    },
+    {
+      "package": "Cython",
+      "version": "3.3.0",
+      "path": "packaging/native/licenses/Cython-3.3.0-LICENSE.txt",
+      "sha256": "9568a2b155e66ac3e0ba1fd80b52b827b9460e6cf6f233125e7cbca8e206ddc3",
+      "source": "https://files.pythonhosted.org/packages/a9/d8/4981ef716ad0e3ff0d3ef383aefc6b03c4a88dee33b272bf8e0d833001ca/cython-3.3.0.tar.gz",
+      "sourceSha256": "eed0d93fbca7087f143b42c34b05a825849bdf17f101572c2105acfa49aa88b8",
+      "sourceMember": "cython-3.3.0/LICENSE.txt"
+    },
+    {
+      "package": "Cython",
+      "version": "3.3.0",
+      "path": "packaging/native/licenses/Cython-3.3.0-COPYING.txt",
+      "sha256": "e1eb1c49a8508e8173dac30157e4a6439a44ad8846194746c424fbc3fc2b95d7",
+      "source": "https://files.pythonhosted.org/packages/a9/d8/4981ef716ad0e3ff0d3ef383aefc6b03c4a88dee33b272bf8e0d833001ca/cython-3.3.0.tar.gz",
+      "sourceSha256": "eed0d93fbca7087f143b42c34b05a825849bdf17f101572c2105acfa49aa88b8",
+      "sourceMember": "cython-3.3.0/COPYING.txt"
+    }
+  ]
+}

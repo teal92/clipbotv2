@@ -1,0 +1,20 @@
+{
+  "target": "macos-arm64",
+  "sourceCommit": "0a74d3b51a0ff3da381978d5d27aad54a9b3a7f5",
+  "sha256": "f32eed0e59b28666003ff98b6f2956828fbfab67dcfec1ef428e7b75eaed43e8",
+  "checks": {
+    "contentAudit": "passed",
+    "architectureVersionAndLibrarySource": "passed",
+    "packagedTls": {
+      "trusted": true,
+      "untrusted": true,
+      "wrongHostname": true
+    },
+    "frozenModelTranscriptionCaptureAndRender": "passed"
+  },
+  "automatedChecksPassed": true,
+  "cleanMachineAccepted": false,
+  "cleanInstallPairedAccepted": false,
+  "desktopChecks": "not-exercised",
+  "publicReleaseApproved": false
+}

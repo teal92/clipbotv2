@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-15",
+  "candidateVersion": "0.2.8",
+  "productionReleaseReady": false,
+  "releaseCandidateBuilt": false,
+  "publicReleaseEnabled": false,
+  "checks": {
+    "companionSecurityTestsPassed": 69,
+    "pinnedArtifactHashesMatched": 195,
+    "buildRuntimeMatched": true,
+    "exactBuildInventoryMatched": true,
+    "packagesAdvisoryChecked": 64,
+    "listedVulnerabilities": 0,
+    "defenderNativeBuildInputs": "No threats reported; report-only scan",
+    "noticePackageCoverage": 64,
+    "packageNoticeFiles": 140,
+    "sourceArchivesReverified": 17,
+    "immutableVendorPatchesVerified": 5,
+    "syntheticRecipeCompiled": true,
+    "recipeFixtureExecuted": false,
+    "sourceModeSpeechAndVerticalRenderPassed": true,
+    "installedFrozenAcceptance": false,
+    "installedRecordHashesMatched": 11332,
+    "unhashedInstalledRecordsNotCertified": 9295,
+    "stagedTrackedInputHashesMatched": 155
+  },
+  "fixes": [
+    "Pin and include reviewed package notices",
+    "Clear previous startup value before applying upgrade startup choice"
+  ],
+  "remaining": [
+    "Complete matching native source/build evidence",
+    "Trusted publisher signing",
+    "Second-PC install, upgrade and uninstall acceptance"
+  ],
+  "secondPCSelected": true,
+  "signingSetupOwnerReplyPending": true
+}

@@ -1,0 +1,11 @@
+# Anonymous visitor metrics
+
+ClipBot records visible page sessions, including guests and signed-in visitors. Active means a heartbeat within five minutes. Separate tabs and reloads can count separately; these are not identified unique people. Known bots, Do Not Track, Global Privacy Control, hidden pages and blocked requests are excluded. No past traffic is invented.
+
+The browser creates a random page identifier in memory only. It sends no account ID, cookies, page URL, referrer or content. The server stores HMAC page identifiers and daily-rotated HMAC rate-limit identities, never raw IP addresses. Inactive page identifiers expire after 30 minutes and rate buckets after at most two hours when collection or metrics reads run. Hourly aggregate visit totals and peak activity remain for bounded Day/Week/Month/Year/All time charts. Abuse limits can undercount shared networks: 120 pulses/minute and 30 new page sessions/hour per verified client IP, and 100,000 new sessions/day globally. The public endpoint reveals no traffic counts; operator summaries require existing private authentication.
+
+C2 displays visitors above Registered customers, including zero counts. Its existing manual refresh pulls visitor and customer summaries together. It polls hourly before launch and during the first seven days after public signup is observed enabled, then every three hours. Changing chart ranges reads the saved snapshot and makes no upstream call. The displayed active count is explicitly timestamped at the last pull. C2 automatic pulls require C2 to be running; hosted collection continues independently.
+
+The privacy notice is versioned with the collection disclosure. Deployment was held until the owner's live purchase/cancellation acceptance finished to avoid changing policy requirements during that journey.
+
+Verification: 32 affected backend tests passed, including privacy opt-outs, strict body/origin rules, operator authentication, churn and daily ceilings, identifier expiry and bounded all-time history. Three browser-script tests passed, including no persistent identifiers and back-forward cache recovery. C2's affected backend suite passed 18 tests; visitor rendering and range switching passed three tests alongside existing metrics, refresh, capacity and customer display checks.

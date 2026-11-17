@@ -1,0 +1,160 @@
+{
+  "decoderDllsVerified": 7,
+  "x64": true,
+  "lgplConfigurationVerified": true,
+  "unresolvedLegacyRuntimeImports": false,
+  "files": [
+    {
+      "file": "avcodec-62.dll",
+      "sha256": "44b3604a92423e1162cc98424172390dfc8baab7d14f0943b8f54e1e3b08d63d",
+      "bytes": 13587968,
+      "imports": [
+        "KERNEL32.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "avutil-60.dll",
+        "ole32.dll",
+        "swresample-6.dll"
+      ],
+      "license": "LGPL version 2.1 or later",
+      "configuration": "--prefix='C:/Users/<you>/cb-build/vcpkg/packages/ffmpeg_x64-clipbot-decoder' --toolchain=msvc --enable-pic --disable-doc --enable-runtime-cpudetect --disable-autodetect --target-os=win32 --enable-w32threads --enable-d3d11va --enable-d3d12va --enable-dxva2 --enable-mediafoundation --cc=cl.exe --cxx=cl.exe --windres=rc.exe --ld=link.exe --ar='ar-lib lib.exe' --ranlib=':' --disable-ffmpeg --disable-ffplay --disable-ffprobe --enable-avcodec --enable-avdevice --enable-avformat --enable-avfilter --enable-swresample --enable-swscale --disable-alsa --disable-amf --disable-libaom --disable-libass --disable-avisynth --disable-bzlib --disable-libdav1d --disable-libsvtav1 --disable-libfdk-aac --disable-libfontconfig --disable-libharfbuzz --disable-libfreetype --disable-libfribidi --disable-iconv --disable-libilbc --disable-lzma --disable-libmp3lame --disable-libmodplug --disable-cuda --disable-nvenc --disable-nvdec --disable-cuvid --disable-ffnvcodec --disable-opencl --disable-opengl --disable-libopenh264 --disable-libopenjpeg --disable-libopenmpt --disable-openssl --enable-schannel --disable-libopus --disable-sdl2 --disable-libsnappy --disable-libsoxr --disable-libspeex --disable-libssh --disable-libtensorflow --disable-libtesseract --disable-libtheora --disable-libtwolame --disable-libvorbis --disable-libvpx --disable-vulkan --disable-libwebp --disable-libx264 --disable-libx265 --disable-libxml2 --disable-zlib --disable-libsrt --disable-libvpl --disable-vaapi --disable-libzmq --disable-librubberband --enable-cross-compile --disable-static --enable-shared --extra-cflags='-DHAVE_UNISTD_H=0' --pkg-config='C:/Users/<you>/cb-build/downloads/tools/msys2/d5586eb050429df1/mingw64/bin/pkg-config.exe' --enable-optimizations --extra-cflags=-MD --extra-cxxflags=-MD --extra-ldflags='-libpath:C:/Users/<you>/cb-build/decoder/installed/x64-clipbot-decoder/lib' --arch=x86_64 --enable-asm --enable-x86asm"
+    },
+    {
+      "file": "avdevice-62.dll",
+      "sha256": "75d8db08f172586a9c6e961bf19252892fc3f213f73d29c0d06afd185faaa583",
+      "bytes": 75776,
+      "imports": [
+        "AVICAP32.dll",
+        "GDI32.dll",
+        "KERNEL32.dll",
+        "OLEAUT32.dll",
+        "SHLWAPI.dll",
+        "USER32.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "avcodec-62.dll",
+        "avfilter-11.dll",
+        "avformat-62.dll",
+        "avutil-60.dll",
+        "ole32.dll"
+      ],
+      "license": "LGPL version 2.1 or later",
+      "configuration": "--prefix='C:/Users/<you>/cb-build/vcpkg/packages/ffmpeg_x64-clipbot-decoder' --toolchain=msvc --enable-pic --disable-doc --enable-runtime-cpudetect --disable-autodetect --target-os=win32 --enable-w32threads --enable-d3d11va --enable-d3d12va --enable-dxva2 --enable-mediafoundation --cc=cl.exe --cxx=cl.exe --windres=rc.exe --ld=link.exe --ar='ar-lib lib.exe' --ranlib=':' --disable-ffmpeg --disable-ffplay --disable-ffprobe --enable-avcodec --enable-avdevice --enable-avformat --enable-avfilter --enable-swresample --enable-swscale --disable-alsa --disable-amf --disable-libaom --disable-libass --disable-avisynth --disable-bzlib --disable-libdav1d --disable-libsvtav1 --disable-libfdk-aac --disable-libfontconfig --disable-libharfbuzz --disable-libfreetype --disable-libfribidi --disable-iconv --disable-libilbc --disable-lzma --disable-libmp3lame --disable-libmodplug --disable-cuda --disable-nvenc --disable-nvdec --disable-cuvid --disable-ffnvcodec --disable-opencl --disable-opengl --disable-libopenh264 --disable-libopenjpeg --disable-libopenmpt --disable-openssl --enable-schannel --disable-libopus --disable-sdl2 --disable-libsnappy --disable-libsoxr --disable-libspeex --disable-libssh --disable-libtensorflow --disable-libtesseract --disable-libtheora --disable-libtwolame --disable-libvorbis --disable-libvpx --disable-vulkan --disable-libwebp --disable-libx264 --disable-libx265 --disable-libxml2 --disable-zlib --disable-libsrt --disable-libvpl --disable-vaapi --disable-libzmq --disable-librubberband --enable-cross-compile --disable-static --enable-shared --extra-cflags='-DHAVE_UNISTD_H=0' --pkg-config='C:/Users/<you>/cb-build/downloads/tools/msys2/d5586eb050429df1/mingw64/bin/pkg-config.exe' --enable-optimizations --extra-cflags=-MD --extra-cxxflags=-MD --extra-ldflags='-libpath:C:/Users/<you>/cb-build/decoder/installed/x64-clipbot-decoder/lib' --arch=x86_64 --enable-asm --enable-x86asm"
+    },
+    {
+      "file": "avfilter-11.dll",
+      "sha256": "2daa593bd08ce8aea37d823869336481c1d7208d6dae967e7bebd6330e805920",
+      "bytes": 3975680,
+      "imports": [
+        "KERNEL32.dll",
+        "MSVCP140.dll",
+        "USER32.dll",
+        "VCRUNTIME140.dll",
+        "VCRUNTIME140_1.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "avcodec-62.dll",
+        "avformat-62.dll",
+        "avutil-60.dll",
+        "swresample-6.dll",
+        "swscale-9.dll"
+      ],
+      "license": "LGPL version 2.1 or later",
+      "configuration": "--prefix='C:/Users/<you>/cb-build/vcpkg/packages/ffmpeg_x64-clipbot-decoder' --toolchain=msvc --enable-pic --disable-doc --enable-runtime-cpudetect --disable-autodetect --target-os=win32 --enable-w32threads --enable-d3d11va --enable-d3d12va --enable-dxva2 --enable-mediafoundation --cc=cl.exe --cxx=cl.exe --windres=rc.exe --ld=link.exe --ar='ar-lib lib.exe' --ranlib=':' --disable-ffmpeg --disable-ffplay --disable-ffprobe --enable-avcodec --enable-avdevice --enable-avformat --enable-avfilter --enable-swresample --enable-swscale --disable-alsa --disable-amf --disable-libaom --disable-libass --disable-avisynth --disable-bzlib --disable-libdav1d --disable-libsvtav1 --disable-libfdk-aac --disable-libfontconfig --disable-libharfbuzz --disable-libfreetype --disable-libfribidi --disable-iconv --disable-libilbc --disable-lzma --disable-libmp3lame --disable-libmodplug --disable-cuda --disable-nvenc --disable-nvdec --disable-cuvid --disable-ffnvcodec --disable-opencl --disable-opengl --disable-libopenh264 --disable-libopenjpeg --disable-libopenmpt --disable-openssl --enable-schannel --disable-libopus --disable-sdl2 --disable-libsnappy --disable-libsoxr --disable-libspeex --disable-libssh --disable-libtensorflow --disable-libtesseract --disable-libtheora --disable-libtwolame --disable-libvorbis --disable-libvpx --disable-vulkan --disable-libwebp --disable-libx264 --disable-libx265 --disable-libxml2 --disable-zlib --disable-libsrt --disable-libvpl --disable-vaapi --disable-libzmq --disable-librubberband --enable-cross-compile --disable-static --enable-shared --extra-cflags='-DHAVE_UNISTD_H=0' --pkg-config='C:/Users/<you>/cb-build/downloads/tools/msys2/d5586eb050429df1/mingw64/bin/pkg-config.exe' --enable-optimizations --extra-cflags=-MD --extra-cxxflags=-MD --extra-ldflags='-libpath:C:/Users/<you>/cb-build/decoder/installed/x64-clipbot-decoder/lib' --arch=x86_64 --enable-asm --enable-x86asm"
+    },
+    {
+      "file": "avformat-62.dll",
+      "sha256": "7d61037889f688511db0fc0e32445fb1d592016ac816168937e7d03221047254",
+      "bytes": 2527232,
+      "imports": [
+        "CRYPT32.dll",
+        "KERNEL32.dll",
+        "Secur32.dll",
+        "VCRUNTIME140.dll",
+        "WS2_32.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "avcodec-62.dll",
+        "avutil-60.dll",
+        "ncrypt.dll"
+      ],
+      "license": "LGPL version 2.1 or later",
+      "configuration": "--prefix='C:/Users/<you>/cb-build/vcpkg/packages/ffmpeg_x64-clipbot-decoder' --toolchain=msvc --enable-pic --disable-doc --enable-runtime-cpudetect --disable-autodetect --target-os=win32 --enable-w32threads --enable-d3d11va --enable-d3d12va --enable-dxva2 --enable-mediafoundation --cc=cl.exe --cxx=cl.exe --windres=rc.exe --ld=link.exe --ar='ar-lib lib.exe' --ranlib=':' --disable-ffmpeg --disable-ffplay --disable-ffprobe --enable-avcodec --enable-avdevice --enable-avformat --enable-avfilter --enable-swresample --enable-swscale --disable-alsa --disable-amf --disable-libaom --disable-libass --disable-avisynth --disable-bzlib --disable-libdav1d --disable-libsvtav1 --disable-libfdk-aac --disable-libfontconfig --disable-libharfbuzz --disable-libfreetype --disable-libfribidi --disable-iconv --disable-libilbc --disable-lzma --disable-libmp3lame --disable-libmodplug --disable-cuda --disable-nvenc --disable-nvdec --disable-cuvid --disable-ffnvcodec --disable-opencl --disable-opengl --disable-libopenh264 --disable-libopenjpeg --disable-libopenmpt --disable-openssl --enable-schannel --disable-libopus --disable-sdl2 --disable-libsnappy --disable-libsoxr --disable-libspeex --disable-libssh --disable-libtensorflow --disable-libtesseract --disable-libtheora --disable-libtwolame --disable-libvorbis --disable-libvpx --disable-vulkan --disable-libwebp --disable-libx264 --disable-libx265 --disable-libxml2 --disable-zlib --disable-libsrt --disable-libvpl --disable-vaapi --disable-libzmq --disable-librubberband --enable-cross-compile --disable-static --enable-shared --extra-cflags='-DHAVE_UNISTD_H=0' --pkg-config='C:/Users/<you>/cb-build/downloads/tools/msys2/d5586eb050429df1/mingw64/bin/pkg-config.exe' --enable-optimizations --extra-cflags=-MD --extra-cxxflags=-MD --extra-ldflags='-libpath:C:/Users/<you>/cb-build/decoder/installed/x64-clipbot-decoder/lib' --arch=x86_64 --enable-asm --enable-x86asm"
+    },
+    {
+      "file": "avutil-60.dll",
+      "sha256": "137878c4d0d77e219c10a870965d2a17f7ae086859a3250537ed2fcb62adf6c8",
+      "bytes": 878592,
+      "imports": [
+        "KERNEL32.dll",
+        "USER32.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-convert-l1-1-0.dll",
+        "api-ms-win-crt-environment-l1-1-0.dll",
+        "api-ms-win-crt-filesystem-l1-1-0.dll",
+        "api-ms-win-crt-heap-l1-1-0.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-string-l1-1-0.dll",
+        "api-ms-win-crt-time-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "bcrypt.dll"
+      ],
+      "license": "LGPL version 2.1 or later",
+      "configuration": "--prefix='C:/Users/<you>/cb-build/vcpkg/packages/ffmpeg_x64-clipbot-decoder' --toolchain=msvc --enable-pic --disable-doc --enable-runtime-cpudetect --disable-autodetect --target-os=win32 --enable-w32threads --enable-d3d11va --enable-d3d12va --enable-dxva2 --enable-mediafoundation --cc=cl.exe --cxx=cl.exe --windres=rc.exe --ld=link.exe --ar='ar-lib lib.exe' --ranlib=':' --disable-ffmpeg --disable-ffplay --disable-ffprobe --enable-avcodec --enable-avdevice --enable-avformat --enable-avfilter --enable-swresample --enable-swscale --disable-alsa --disable-amf --disable-libaom --disable-libass --disable-avisynth --disable-bzlib --disable-libdav1d --disable-libsvtav1 --disable-libfdk-aac --disable-libfontconfig --disable-libharfbuzz --disable-libfreetype --disable-libfribidi --disable-iconv --disable-libilbc --disable-lzma --disable-libmp3lame --disable-libmodplug --disable-cuda --disable-nvenc --disable-nvdec --disable-cuvid --disable-ffnvcodec --disable-opencl --disable-opengl --disable-libopenh264 --disable-libopenjpeg --disable-libopenmpt --disable-openssl --enable-schannel --disable-libopus --disable-sdl2 --disable-libsnappy --disable-libsoxr --disable-libspeex --disable-libssh --disable-libtensorflow --disable-libtesseract --disable-libtheora --disable-libtwolame --disable-libvorbis --disable-libvpx --disable-vulkan --disable-libwebp --disable-libx264 --disable-libx265 --disable-libxml2 --disable-zlib --disable-libsrt --disable-libvpl --disable-vaapi --disable-libzmq --disable-librubberband --enable-cross-compile --disable-static --enable-shared --extra-cflags='-DHAVE_UNISTD_H=0' --pkg-config='C:/Users/<you>/cb-build/downloads/tools/msys2/d5586eb050429df1/mingw64/bin/pkg-config.exe' --enable-optimizations --extra-cflags=-MD --extra-cxxflags=-MD --extra-ldflags='-libpath:C:/Users/<you>/cb-build/decoder/installed/x64-clipbot-decoder/lib' --arch=x86_64 --enable-asm --enable-x86asm"
+    },
+    {
+      "file": "swresample-6.dll",
+      "sha256": "4a296f970f092903ec0c5cc129d745dd330aafa72b8c95e69c75f022700e250c",
+      "bytes": 123904,
+      "imports": [
+        "KERNEL32.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "avutil-60.dll"
+      ],
+      "license": "LGPL version 2.1 or later",
+      "configuration": "--prefix='C:/Users/<you>/cb-build/vcpkg/packages/ffmpeg_x64-clipbot-decoder' --toolchain=msvc --enable-pic --disable-doc --enable-runtime-cpudetect --disable-autodetect --target-os=win32 --enable-w32threads --enable-d3d11va --enable-d3d12va --enable-dxva2 --enable-mediafoundation --cc=cl.exe --cxx=cl.exe --windres=rc.exe --ld=link.exe --ar='ar-lib lib.exe' --ranlib=':' --disable-ffmpeg --disable-ffplay --disable-ffprobe --enable-avcodec --enable-avdevice --enable-avformat --enable-avfilter --enable-swresample --enable-swscale --disable-alsa --disable-amf --disable-libaom --disable-libass --disable-avisynth --disable-bzlib --disable-libdav1d --disable-libsvtav1 --disable-libfdk-aac --disable-libfontconfig --disable-libharfbuzz --disable-libfreetype --disable-libfribidi --disable-iconv --disable-libilbc --disable-lzma --disable-libmp3lame --disable-libmodplug --disable-cuda --disable-nvenc --disable-nvdec --disable-cuvid --disable-ffnvcodec --disable-opencl --disable-opengl --disable-libopenh264 --disable-libopenjpeg --disable-libopenmpt --disable-openssl --enable-schannel --disable-libopus --disable-sdl2 --disable-libsnappy --disable-libsoxr --disable-libspeex --disable-libssh --disable-libtensorflow --disable-libtesseract --disable-libtheora --disable-libtwolame --disable-libvorbis --disable-libvpx --disable-vulkan --disable-libwebp --disable-libx264 --disable-libx265 --disable-libxml2 --disable-zlib --disable-libsrt --disable-libvpl --disable-vaapi --disable-libzmq --disable-librubberband --enable-cross-compile --disable-static --enable-shared --extra-cflags='-DHAVE_UNISTD_H=0' --pkg-config='C:/Users/<you>/cb-build/downloads/tools/msys2/d5586eb050429df1/mingw64/bin/pkg-config.exe' --enable-optimizations --extra-cflags=-MD --extra-cxxflags=-MD --extra-ldflags='-libpath:C:/Users/<you>/cb-build/decoder/installed/x64-clipbot-decoder/lib' --arch=x86_64 --enable-asm --enable-x86asm"
+    },
+    {
+      "file": "swscale-9.dll",
+      "sha256": "d9486a6ae8fcb0fbb096c4d713ec02f1916457c0aec24b9b4de0085576f1002d",
+      "bytes": 1003008,
+      "imports": [
+        "KERNEL32.dll",
+        "VCRUNTIME140.dll",
+        "api-ms-win-crt-math-l1-1-0.dll",
+        "api-ms-win-crt-runtime-l1-1-0.dll",
+        "api-ms-win-crt-stdio-l1-1-0.dll",
+        "api-ms-win-crt-utility-l1-1-0.dll",
+        "avutil-60.dll"
+      ],
+      "license": "LGPL version 2.1 or later",
+      "configuration": "--prefix='C:/Users/<you>/cb-build/vcpkg/packages/ffmpeg_x64-clipbot-decoder' --toolchain=msvc --enable-pic --disable-doc --enable-runtime-cpudetect --disable-autodetect --target-os=win32 --enable-w32threads --enable-d3d11va --enable-d3d12va --enable-dxva2 --enable-mediafoundation --cc=cl.exe --cxx=cl.exe --windres=rc.exe --ld=link.exe --ar='ar-lib lib.exe' --ranlib=':' --disable-ffmpeg --disable-ffplay --disable-ffprobe --enable-avcodec --enable-avdevice --enable-avformat --enable-avfilter --enable-swresample --enable-swscale --disable-alsa --disable-amf --disable-libaom --disable-libass --disable-avisynth --disable-bzlib --disable-libdav1d --disable-libsvtav1 --disable-libfdk-aac --disable-libfontconfig --disable-libharfbuzz --disable-libfreetype --disable-libfribidi --disable-iconv --disable-libilbc --disable-lzma --disable-libmp3lame --disable-libmodplug --disable-cuda --disable-nvenc --disable-nvdec --disable-cuvid --disable-ffnvcodec --disable-opencl --disable-opengl --disable-libopenh264 --disable-libopenjpeg --disable-libopenmpt --disable-openssl --enable-schannel --disable-libopus --disable-sdl2 --disable-libsnappy --disable-libsoxr --disable-libspeex --disable-libssh --disable-libtensorflow --disable-libtesseract --disable-libtheora --disable-libtwolame --disable-libvorbis --disable-libvpx --disable-vulkan --disable-libwebp --disable-libx264 --disable-libx265 --disable-libxml2 --disable-zlib --disable-libsrt --disable-libvpl --disable-vaapi --disable-libzmq --disable-librubberband --enable-cross-compile --disable-static --enable-shared --extra-cflags='-DHAVE_UNISTD_H=0' --pkg-config='C:/Users/<you>/cb-build/downloads/tools/msys2/d5586eb050429df1/mingw64/bin/pkg-config.exe' --enable-optimizations --extra-cflags=-MD --extra-cxxflags=-MD --extra-ldflags='-libpath:C:/Users/<you>/cb-build/decoder/installed/x64-clipbot-decoder/lib' --arch=x86_64 --enable-asm --enable-x86asm"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "runUrl": "https://github.com/YOUR-GITHUB-USERNAME/clipbot-saas/actions/runs/39305311427",
+  "sourceCommit": "d935740dfc9135de6599ec77a6fdbb6032b2ccf8",
+  "workflowCommit": "2f659927cca7c7cb3d265a728030ce1d16e8eb84",
+  "target": "macos-arm64",
+  "pyavSourceCommit": "54a4395bb4cdd9cdd53ff6216c50b69f6475c13d",
+  "registryCommit": "c52f7bd748185ef0e0daf033d9f2ddfc8a3449ea",
+  "wheelFilename": "av-18.0.0-cp311-abi3-macosx_14_0_arm64.whl",
+  "sha256": "5f13caaae29f6689a90e7b6be865b920cb794e4155cb3f665acdc190115b0799",
+  "sizeBytes": 12171626,
+  "installed": {
+    "version": "18.0.0",
+    "libraries": {
+      "libavutil": [
+        60,
+        26,
+        102
+      ],
+      "libavcodec": [
+        62,
+        28,
+        102
+      ],
+      "libavformat": [
+        62,
+        12,
+        102
+      ],
+      "libavdevice": [
+        62,
+        3,
+        102
+      ],
+      "libavfilter": [
+        11,
+        14,
+        102
+      ],
+      "libswscale": [
+        9,
+        5,
+        102
+      ],
+      "libswresample": [
+        6,
+        3,
+        102
+      ]
+    }
+  },
+  "nativeCompileAndInstalledByteVerificationPassed": true,
+  "packagedAcceptance": false,
+  "cleanMachineAccepted": false,
+  "publicReleaseApproved": false
+}

@@ -1,0 +1,15 @@
+{
+  "pystray": {
+    "version": "0.19.5",
+    "commit": "1907f8681d6d421517c63d94f425f9cdd74d0034",
+    "url": "https://codeload.github.com/moses-palmer/pystray/tar.gz/1907f8681d6d421517c63d94f425f9cdd74d0034",
+    "sha256": "2df980e432f349815c8b1e88f910c085c161a17ce7294f73a0e8d7651c5d9bac",
+    "sizeBytes": 48172
+  },
+  "whisper-model-license": {
+    "commit": "86098128c0b4f24f0e2aa2994de830614b474227",
+    "url": "https://raw.githubusercontent.com/openai/whisper/86098128c0b4f24f0e2aa2994de830614b474227/LICENSE",
+    "sha256": "b5d65a59060e68c4ff940e1eddfa6f94b2d68fdf58ed7f4dd57721c997e35e9d",
+    "sizeBytes": 1063
+  }
+}

@@ -1,0 +1,211 @@
+name: Native companion checks and candidate build
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: Native operating system and processor
+        type: choice
+        required: true
+        options: [macos-arm64, macos-x86_64, linux-x86_64]
+      commit:
+        description: Full reviewed source commit hash
+        type: string
+        required: true
+      mode:
+        description: OS integration, source runtime compilation, or verified candidate build
+        type: choice
+        required: true
+        default: probe
+        options: [probe, runtime, media, wheels, decoder, onnx, desktop, build]
+permissions:
+  contents: read
+concurrency:
+  group: companion-native-${{ inputs.target }}
+  cancel-in-progress: false
+jobs:
+  native:
+    runs-on: ${{ inputs.target == 'macos-arm64' && 'macos-15' || inputs.target == 'macos-x86_64' && 'macos-15-intel' || 'ubuntu-24.04' }}
+    timeout-minutes: 45
+    env:
+      REVIEWED_COMMIT: ${{ inputs.commit }}
+      NATIVE_TARGET: ${{ inputs.target }}
+      NATIVE_MODE: ${{ inputs.mode }}
+      PYTHONNOUSERSITE: '1'
+      PIP_DISABLE_PIP_VERSION_CHECK: '1'
+    steps:
+      - name: Validate source selector
+        run: python3 -c 'import os,re; assert re.fullmatch("[a-f0-9]{40}",os.environ["REVIEWED_COMMIT"]), "Full reviewed commit required"; assert os.environ["NATIVE_MODE"]!="onnx" or os.environ["NATIVE_TARGET"]=="macos-x86_64", "ONNX source check requires Intel Mac"; assert os.environ["NATIVE_MODE"]!="desktop" or os.environ["NATIVE_TARGET"]=="linux-x86_64", "Desktop source check requires Linux"'
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
+        with:
+          ref: ${{ inputs.commit }}
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1
+        if: inputs.mode == 'probe' && runner.os != 'macOS'
+        with:
+          python-version: '3.12.14'
+      - name: Install isolated Linux probe prerequisites
+        if: runner.os == 'Linux' && inputs.mode == 'probe'
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y libsecret-1-0 gnome-keyring dbus-x11
+      - name: Probe macOS integration
+        if: runner.os == 'macOS' && inputs.mode == 'probe'
+        run: /usr/bin/python3 tools/probe_native_companion.py --target "$NATIVE_TARGET" --source-commit "$REVIEWED_COMMIT" --output "$RUNNER_TEMP/native-probe.json"
+      - name: Probe Linux integration in a disposable desktop bus
+        if: runner.os == 'Linux' && inputs.mode == 'probe'
+        run: |
+          export XDG_DATA_HOME="$RUNNER_TEMP/clipbot-probe-data"
+          export XDG_CONFIG_HOME="$RUNNER_TEMP/clipbot-probe-config"
+          export XDG_RUNTIME_DIR="$RUNNER_TEMP/clipbot-probe-runtime"
+          mkdir -p "$XDG_DATA_HOME" "$XDG_CONFIG_HOME" "$XDG_RUNTIME_DIR"
+          chmod 700 "$XDG_DATA_HOME" "$XDG_CONFIG_HOME" "$XDG_RUNTIME_DIR"
+          dbus-run-session -- sh -c 'printf "%s" "clipbot-disposable-ci-keyring" | gnome-keyring-daemon --unlock --components=secrets; python tools/probe_native_companion.py --target "$NATIVE_TARGET" --source-commit "$REVIEWED_COMMIT" --output "$RUNNER_TEMP/native-probe.json"'
+      - name: Install Linux desktop build prerequisites
+        if: runner.os == 'Linux' && (inputs.mode == 'desktop' || inputs.mode == 'build')
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y libglib2.0-dev libgirepository-2.0-dev libcairo2-dev gir1.2-gtk-3.0
+          pkg-config --modversion glib-2.0 girepository-2.0 cairo
+          pkg-config --atleast-version=2.80 girepository-2.0
+          dpkg-query -W -f='${Package} ${Version}\n' libglib2.0-dev libgirepository-2.0-dev libcairo2-dev gir1.2-gtk-3.0 > "$RUNNER_TEMP/desktop-build-prerequisites.txt"
+      - name: Install Linux source-runtime build prerequisites
+        if: runner.os == 'Linux' && (inputs.mode == 'runtime' || inputs.mode == 'wheels' || inputs.mode == 'decoder' || inputs.mode == 'build' || inputs.mode == 'desktop')
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y build-essential pkg-config libbz2-dev liblzma-dev libsqlite3-dev zlib1g-dev
+          dpkg-query -W -f='${Package} ${Version}\n' build-essential pkg-config libbz2-dev liblzma-dev libsqlite3-dev zlib1g-dev > "$RUNNER_TEMP/runtime-build-prerequisites.txt"
+      - name: Compile and check reviewed native runtime
+        if: inputs.mode == 'runtime' || inputs.mode == 'wheels' || inputs.mode == 'decoder' || inputs.mode == 'build' || inputs.mode == 'onnx' || inputs.mode == 'desktop'
+        run: python3 tools/build_native_runtime.py --target "$NATIVE_TARGET" --output "$RUNNER_TEMP/native-runtime"
+      - name: Prepare and check reviewed native prebuilt dependencies
+        if: inputs.mode == 'wheels' || inputs.mode == 'decoder' || inputs.mode == 'build' || inputs.mode == 'onnx' || inputs.mode == 'desktop'
+        run: '"$RUNNER_TEMP/native-runtime/runtime/bin/python3.12" tools/install_native_wheels.py --target "$NATIVE_TARGET" --output "$RUNNER_TEMP/native-wheels"'
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always() && (inputs.mode == 'wheels' || inputs.mode == 'decoder' || inputs.mode == 'build' || inputs.mode == 'onnx' || inputs.mode == 'desktop')
+        with:
+          name: native-wheels-${{ inputs.target }}-${{ inputs.commit }}
+          path: |
+            ${{ runner.temp }}/native-wheels/wheel-diagnostics.json
+            ${{ runner.temp }}/native-wheels/build.log
+          retention-days: 1
+          if-no-files-found: warn
+      - name: Build and check current Intel CPU dependency
+        if: inputs.mode == 'onnx'
+        run: '"$RUNNER_TEMP/native-wheels/environment/bin/python" tools/build_native_onnx.py --output "$RUNNER_TEMP/native-onnx"'
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always() && inputs.mode == 'onnx'
+        with:
+          name: native-onnx-${{ inputs.target }}-${{ inputs.commit }}
+          path: |
+            ${{ runner.temp }}/native-onnx/onnx-diagnostics.json
+            ${{ runner.temp }}/native-onnx/offline-build.patch
+            ${{ runner.temp }}/native-onnx/onnx-sources.zip
+            ${{ runner.temp }}/native-onnx/build.log
+            ${{ runner.temp }}/native-onnx/wheels/*.whl
+          retention-days: 1
+          if-no-files-found: warn
+      - name: Install Linux native-media build prerequisites
+        if: runner.os == 'Linux' && (inputs.mode == 'media' || inputs.mode == 'decoder' || inputs.mode == 'build')
+        run: |
+          sudo apt-get update
+          sudo apt-get install --no-install-recommends -y build-essential pkg-config autoconf automake libtool nasm yasm ninja-build bison flex gperf texinfo patchelf
+      - name: Build and check Linux desktop bindings
+        if: runner.os == 'Linux' && (inputs.mode == 'desktop' || inputs.mode == 'build')
+        run: '"$RUNNER_TEMP/native-wheels/environment/bin/python" tools/build_native_linux_desktop.py --output "$RUNNER_TEMP/native-desktop"'
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always() && runner.os == 'Linux' && (inputs.mode == 'desktop' || inputs.mode == 'build')
+        with:
+          name: native-desktop-${{ inputs.target }}-${{ inputs.commit }}
+          path: |
+            ${{ runner.temp }}/desktop-build-prerequisites.txt
+            ${{ runner.temp }}/native-desktop/desktop-diagnostics.json
+            ${{ runner.temp }}/native-desktop/build.log
+            ${{ runner.temp }}/native-desktop/wheels/*.whl
+          retention-days: 1
+          if-no-files-found: warn
+      - name: Compile and check reviewed native media inputs
+        if: inputs.mode == 'media' || inputs.mode == 'decoder' || inputs.mode == 'build'
+        run: python3 tools/build_native_media.py --target "$NATIVE_TARGET" --output "$RUNNER_TEMP/native-media"
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always() && (inputs.mode == 'media' || inputs.mode == 'decoder' || inputs.mode == 'build')
+        with:
+          name: native-media-${{ inputs.target }}-${{ inputs.commit }}
+          path: |
+            ${{ runner.temp }}/native-media/media-diagnostics.json
+            ${{ runner.temp }}/native-media/build.log
+          retention-days: 1
+          if-no-files-found: warn
+      - name: Build and verify controlled native decoder wheel
+        if: inputs.mode == 'decoder' || inputs.mode == 'build'
+        run: '"$RUNNER_TEMP/native-wheels/environment/bin/python" tools/build_native_pyav.py --target "$NATIVE_TARGET" --media-root "$RUNNER_TEMP/native-media" --output "$RUNNER_TEMP/native-pyav"'
+      - name: Assemble verified internal candidate inputs
+        if: inputs.mode == 'build'
+        run: '"$RUNNER_TEMP/native-wheels/environment/bin/python" tools/prepare_native_candidate.py --target "$NATIVE_TARGET" --runtime-root "$RUNNER_TEMP/native-runtime" --wheels-root "$RUNNER_TEMP/native-wheels" --media-root "$RUNNER_TEMP/native-media" --pyav-root "$RUNNER_TEMP/native-pyav" --desktop-root "$RUNNER_TEMP/native-desktop" --output "$RUNNER_TEMP/native-assets"'
+      - name: Build candidate from reviewed native inputs
+        if: inputs.mode == 'build'
+        run: '"$RUNNER_TEMP/native-wheels/environment/bin/python" packaging/build-native.py --target "$NATIVE_TARGET" --inputs-root "$RUNNER_TEMP/native-assets" --output "$RUNNER_TEMP/native-candidate"'
+      - name: Exercise the copied packaged application
+        if: inputs.mode == 'build'
+        run: |
+          case "$NATIVE_TARGET" in
+            macos-arm64) artifact=ClipBotCompanion-arm64.dmg ;;
+            macos-x86_64) artifact=ClipBotCompanion-x86_64.dmg ;;
+            linux-x86_64) artifact=clipbot-companion-amd64.deb ;;
+            *) exit 2 ;;
+          esac
+          "$RUNNER_TEMP/native-wheels/environment/bin/python" tools/accept_native_companion.py --target "$NATIVE_TARGET" --artifact "$RUNNER_TEMP/native-candidate/$artifact" --manifest "$RUNNER_TEMP/native-candidate/manifest.json" --report "$RUNNER_TEMP/native-packaged-checks.json"
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always() && inputs.mode == 'build'
+        with:
+          name: native-packaged-checks-${{ inputs.target }}-${{ inputs.commit }}
+          path: ${{ runner.temp }}/native-packaged-checks.json
+          retention-days: 1
+          if-no-files-found: warn
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: success() && inputs.mode == 'build'
+        with:
+          name: internal-native-candidate-${{ inputs.target }}-${{ inputs.commit }}
+          path: |
+            ${{ runner.temp }}/native-candidate/*.dmg
+            ${{ runner.temp }}/native-candidate/*.deb
+            ${{ runner.temp }}/native-candidate/manifest.json
+          retention-days: 1
+          if-no-files-found: error
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always() && inputs.mode == 'build'
+        with:
+          name: native-assembly-${{ inputs.target }}-${{ inputs.commit }}
+          path: |
+            ${{ runner.temp }}/native-assets/assembly.log
+            ${{ runner.temp }}/native-assets/packaging/platforms/*.inputs.json
+          retention-days: 1
+          if-no-files-found: warn
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always() && (inputs.mode == 'decoder' || inputs.mode == 'build')
+        with:
+          name: native-decoder-${{ inputs.target }}-${{ inputs.commit }}
+          path: |
+            ${{ runner.temp }}/native-pyav/pyav-diagnostics.json
+            ${{ runner.temp }}/native-pyav/build.log
+            ${{ runner.temp }}/native-pyav/repaired/*.whl
+          retention-days: 1
+          if-no-files-found: warn
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always() && (inputs.mode == 'runtime' || inputs.mode == 'wheels' || inputs.mode == 'decoder' || inputs.mode == 'build' || inputs.mode == 'onnx' || inputs.mode == 'desktop')
+        with:
+          name: native-runtime-${{ inputs.target }}-${{ inputs.commit }}
+          path: |
+            ${{ runner.temp }}/runtime-build-prerequisites.txt
+            ${{ runner.temp }}/native-runtime/runtime-diagnostics.json
+            ${{ runner.temp }}/native-runtime/build.log
+            ${{ runner.temp }}/native-runtime/source-python/*/config.log
+            ${{ runner.temp }}/native-runtime/source-libffi/*/config.log
+          retention-days: 1
+          if-no-files-found: warn
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always() && inputs.mode == 'probe'
+        with:
+          name: native-probe-${{ inputs.target }}-${{ inputs.commit }}
+          path: ${{ runner.temp }}/native-probe.json
+          retention-days: 1
+          if-no-files-found: warn

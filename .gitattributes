@@ -1,0 +1,10 @@
+# Preserve exact bytes for inputs pinned by the companion release manifest.
+packaging/licenses/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+packaging/THIRD-PARTY-NOTICES.txt -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+packaging/package-license-inventory.json -text
+packaging/worker-build.lock -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+packaging/approved-worker-build.json -text
+packaging/native/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+packaging/source-inventory.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Vendor copyright files retain the upstream whitespace as well as exact bytes.
+packaging/licenses/native/*-COPYRIGHT.txt -whitespace

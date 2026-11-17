@@ -1,0 +1,25 @@
+{
+  "frozenDiagnosticsPassed": true,
+  "checks": {
+    "ffmpeg": true,
+    "ffprobe": true,
+    "captureInstalled": true,
+    "transcriptionInstalled": true,
+    "metricsInstalled": true,
+    "modelDownloaded": true,
+    "modelLoads": true,
+    "mediaTranscribes": true,
+    "rollingClipPasses": true,
+    "candidatePreviewPasses": true,
+    "verticalReviewPasses": true
+  },
+  "nativeWheelFilesMatched": 56,
+  "microsoftRuntimeFilesMatched": 4,
+  "sourceArchiveMatched": true,
+  "syntheticMediaOnly": true,
+  "isolatedAppData": true,
+  "realPairingChanged": false,
+  "paidRequests": 0,
+  "socialPosts": 0,
+  "cleanPcInstallerAccepted": false
+}

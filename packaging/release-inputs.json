@@ -1,0 +1,1292 @@
+{
+  "schemaVersion": 1,
+  "releaseVersion": "0.2.10",
+  "sourceComplete": true,
+  "dependencyLockComplete": true,
+  "artifacts": [
+    {
+      "path": "packaging/THIRD-PARTY-NOTICES.txt",
+      "sha256": "61ef6f1c98fbb96916da894ac45d3e12beddd8cbbdbfde2b92d6921c1454df0d",
+      "sizeBytes": 1684,
+      "role": "notice"
+    },
+    {
+      "path": "packaging/approved-worker-build.json",
+      "sha256": "f4b61b06ae90b6d118672e6651d01e685687cc158cdc07bf50dcd16edd695722",
+      "sizeBytes": 1638,
+      "role": "lock"
+    },
+    {
+      "path": "packaging/licenses/FFmpeg-Gyan-9.0.1-README.txt",
+      "role": "notice",
+      "sha256": "9d734beeeafa8b187693880ceb2cd5f0cf436151da72cce31fb1afa1d3726b25",
+      "sizeBytes": 45547
+    },
+    {
+      "path": "packaging/licenses/FFmpeg-build.txt",
+      "role": "notice",
+      "sha256": "73b1e5ddc98019215813c535654cc7da856e4b05f481da107863aeba01cbd701",
+      "sizeBytes": 3482
+    },
+    {
+      "path": "packaging/licenses/Inno-Setup-LICENSE.txt",
+      "role": "notice",
+      "sha256": "a7f97b166be34fc8bf04e79617b9f56b2aa7903a2808f94155e449c80bdfdcc2",
+      "sizeBytes": 1521
+    },
+    {
+      "path": "packaging/licenses/PACKAGE-LICENSES.json",
+      "role": "notice",
+      "sha256": "82ca7a4869b4917f62f30b02b07f464f142cdb502add22bea37cbe6336c657c9",
+      "sizeBytes": 46226
+    },
+    {
+      "path": "packaging/licenses/Pillow-LICENSE",
+      "role": "notice",
+      "sha256": "7cfc737a2d7fda776b8491589c69c5cd826e4b79c984dce51e8639211a83d961",
+      "sizeBytes": 78052
+    },
+    {
+      "path": "packaging/licenses/Python-LICENSE.txt",
+      "role": "notice",
+      "sha256": "886a0ead2d89030ee62dbff52b04e47ab91998341295bb9c56fb952b4e081c7a",
+      "sizeBytes": 25066
+    },
+    {
+      "path": "packaging/licenses/faster-whisper-LICENSE",
+      "role": "notice",
+      "sha256": "125d17a0c65b9cf442ebffd4a681264b1b140ab47e0cd47caa78b91dbd5c1bcd",
+      "sizeBytes": 1085
+    },
+    {
+      "path": "packaging/licenses/native/README.txt",
+      "role": "notice",
+      "sha256": "5a942072026619f9c261e18a26782dc1d963d6ef6537a5a446f8cd1450a77d7a",
+      "sizeBytes": 1163
+    },
+    {
+      "path": "packaging/licenses/native/brotli-renderer-COPYRIGHT.txt",
+      "role": "notice",
+      "sha256": "3d180008e36922a4e8daec11c34c7af264fed5962d07924aea928c38e8663c94",
+      "sizeBytes": 1084
+    },
+    {
+      "path": "packaging/licenses/native/bzip2-renderer-COPYRIGHT.txt",
+      "role": "notice",
+      "sha256": "c6dbbf828498be844a89eaa3b84adbab3199e342eb5cb2ed2f0d4ba7ec0f38a3",
+      "sizeBytes": 1896
+    },
+    {
+      "path": "packaging/licenses/native/ffmpeg-decoder-COPYRIGHT.txt",
+      "role": "notice",
+      "sha256": "246041b6ecf9bc32d718a62c57877c78b5eb397b6467e74ed7ae2626ab189c30",
+      "sizeBytes": 26517
+    },
+    {
+      "path": "packaging/licenses/native/ffmpeg-renderer-COPYRIGHT.txt",
+      "role": "notice",
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "sizeBytes": 18092
+    },
+    {
+      "path": "packaging/licenses/native/freetype-renderer-COPYRIGHT.txt",
+      "role": "notice",
+      "sha256": "cf82ed29473c1fd8e137fd34250f89eebf2bee9e126fa004286dd25495d5c654",
+      "sizeBytes": 27496
+    },
+    {
+      "path": "packaging/licenses/native/fribidi-renderer-COPYRIGHT.txt",
+      "role": "notice",
+      "sha256": "27635965fa9dbc4e34dbbf48a41954c46bce9e6e5fc63f8faaf228b0ef90c282",
+      "sizeBytes": 27703
+    },
+    {
+      "path": "packaging/licenses/native/harfbuzz-renderer-COPYRIGHT.txt",
+      "role": "notice",
+      "sha256": "dcdaea4ee055d39e2037762f1ad47df9a6b13ee03e5b7135ccf21ed778118333",
+      "sizeBytes": 3207
+    },
+    {
+      "path": "packaging/licenses/native/libass-renderer-COPYRIGHT.txt",
+      "role": "notice",
+      "sha256": "f7e30699d02798351e7f839e3d3bfeb29ce65e44efa7735c225464c4fd7dfe9c",
+      "sizeBytes": 755
+    },
+    {
+      "path": "packaging/licenses/native/libpng-renderer-COPYRIGHT.txt",
+      "role": "notice",
+      "sha256": "bdb0a645ea18c60507d0368379b1ac5474b92255fcc2d115e07486a7672ba526",
+      "sizeBytes": 5345
+    },
+    {
+      "path": "packaging/licenses/native/x264-renderer-COPYRIGHT.txt",
+      "role": "notice",
+      "sha256": "32b1062f7da84967e7019d01ab805935caa7ab7321a7ced0e30ebe75e5df1670",
+      "sizeBytes": 17992
+    },
+    {
+      "path": "packaging/licenses/native/zlib-renderer-COPYRIGHT.txt",
+      "role": "notice",
+      "sha256": "e32ff4e00d9d94930537635291da39e7e612703334bf6fde8c7f1686fe8a45a2",
+      "sizeBytes": 1002
+    },
+    {
+      "path": "packaging/licenses/onnxruntime-LICENSE",
+      "role": "notice",
+      "sha256": "c250d6278f0b47a6439fb7592b08b58a55eb9f535aa49a1db63211c3f982b674",
+      "sizeBytes": 1094
+    },
+    {
+      "path": "packaging/licenses/packages/altgraph/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "6c194d6db0c64d45535d10c95142b9b0cda7b7dcc7f1ddee302b3d536f3dbe46",
+      "sizeBytes": 1002
+    },
+    {
+      "path": "packaging/licenses/packages/annotated-doc/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "fff170779a6acbf65abdb405c087f1cee1786691e4a96a4034517e4a504a0cdf",
+      "sizeBytes": 1086
+    },
+    {
+      "path": "packaging/licenses/packages/annotated-types/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "fe1049884b1a0d9342901e88e07f32925d24b3121d9972b6a6805fb9824b095d",
+      "sizeBytes": 1083
+    },
+    {
+      "path": "packaging/licenses/packages/anthropic/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "8bf96984ff8bcfae7e48cae76a529e8a25317ba9e02abf7fd3cc64fdf95657a6",
+      "sizeBytes": 1056
+    },
+    {
+      "path": "packaging/licenses/packages/anthropic/1-LICENSE.txt",
+      "role": "notice",
+      "sha256": "154759c1e9eb58e42643ee43ec59d556def4d1d702d911a484c469e02f85dd5d",
+      "sizeBytes": 1493
+    },
+    {
+      "path": "packaging/licenses/packages/anthropic/2-NOTICE.md.txt",
+      "role": "notice",
+      "sha256": "90f45e20cf0b5c730d956ad93d3cd68ab4466b9c7490ac2a1999c8dcbd521562",
+      "sizeBytes": 1705
+    },
+    {
+      "path": "packaging/licenses/packages/anyio/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "5361ac9dc58f2ef5fd2e9b09c68297c17f04950909bbc8023bdb82eacf22c2b0",
+      "sizeBytes": 1081
+    },
+    {
+      "path": "packaging/licenses/packages/av/0-AUTHORS.rst.txt",
+      "role": "notice",
+      "sha256": "72d1011120cc21e6c668e880c187534e84ad775b5b4485f3f3848065e474d83f",
+      "sizeBytes": 6125
+    },
+    {
+      "path": "packaging/licenses/packages/av/1-LICENSE.txt.txt",
+      "role": "notice",
+      "sha256": "f32ebcb6007dcc05eea369b3820e6391b0a7ef1ed763f30f1aca15dfdbacbe96",
+      "sizeBytes": 1528
+    },
+    {
+      "path": "packaging/licenses/packages/certifi/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7",
+      "sizeBytes": 989
+    },
+    {
+      "path": "packaging/licenses/packages/cffi/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "5ba24ddc57067f9249add644c3afc41a5d6dc37e23433ef759d95df370b0af63",
+      "sizeBytes": 1123
+    },
+    {
+      "path": "packaging/licenses/packages/charset-normalizer/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "18577485d3704f1a479ded8e573c0976cfed315fd2fd17983fa988da4c2f70d1",
+      "sizeBytes": 1092
+    },
+    {
+      "path": "packaging/licenses/packages/click/0-LICENSE.txt.txt",
+      "role": "notice",
+      "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d",
+      "sizeBytes": 1475
+    },
+    {
+      "path": "packaging/licenses/packages/colorama/0-LICENSE.txt.txt",
+      "role": "notice",
+      "sha256": "cac35c02686e5d04a5a7140bfb3b36e73aed496656e891102e428886d7930318",
+      "sizeBytes": 1491
+    },
+    {
+      "path": "packaging/licenses/packages/cryptography/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "3e0c7c091a948b82533ba98fd7cbb40432d6f1a9acbf85f5922d2f99a93ae6bb",
+      "sizeBytes": 197
+    },
+    {
+      "path": "packaging/licenses/packages/ctranslate2/upstream-LICENSE.txt",
+      "role": "notice",
+      "sha256": "54aa79d9fe3c09e67a16dcd95b9e88676405a6ec174efda31036983cf7672ecb",
+      "sizeBytes": 1115
+    },
+    {
+      "path": "packaging/licenses/packages/docstring-parser/0-LICENSE.md.txt",
+      "role": "notice",
+      "sha256": "dfe514a337ae8417abd31a8af707bbd6172b03e5430bb083e145899ea97a3eea",
+      "sizeBytes": 1084
+    },
+    {
+      "path": "packaging/licenses/packages/fastapi/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "4ec89ffc81485b97fec584b2d4a961032eeffe834453894fd9c1274906cc744e",
+      "sizeBytes": 1086
+    },
+    {
+      "path": "packaging/licenses/packages/faster-whisper/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "af6798135e729f8aa6c853936d037dfdea449734d26b8ea6a89805fca758c0d5",
+      "sizeBytes": 1064
+    },
+    {
+      "path": "packaging/licenses/packages/filelock/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "608c89d5060ae9921adccf3236695bc654a9946e12323ef6c021dfa04e294d48",
+      "sizeBytes": 1088
+    },
+    {
+      "path": "packaging/licenses/packages/flatbuffers/upstream-LICENSE.txt",
+      "role": "notice",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "sizeBytes": 11358
+    },
+    {
+      "path": "packaging/licenses/packages/fsspec/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "2dc35496ce53a7307915c008a844aad53e772b49b34cdd00445067691407ec94",
+      "sizeBytes": 1513
+    },
+    {
+      "path": "packaging/licenses/packages/h11/0-LICENSE.txt.txt",
+      "role": "notice",
+      "sha256": "37db5bb85926db28a427a25867f10b1232003aea1be69ccb851138adb8e6f361",
+      "sizeBytes": 1124
+    },
+    {
+      "path": "packaging/licenses/packages/hf-xet/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+      "sizeBytes": 11558
+    },
+    {
+      "path": "packaging/licenses/packages/httpcore/0-LICENSE.md.txt",
+      "role": "notice",
+      "sha256": "fdcb59154c74cbaba16a11242f7740bea9f23d6feb5547917d8c5f94a80392a5",
+      "sizeBytes": 1518
+    },
+    {
+      "path": "packaging/licenses/packages/httpcore2/0-LICENSE.md.txt",
+      "role": "notice",
+      "sha256": "c4df125c807b0613501e943a5c92496dd11d2c16604ce396097a8dde396304d9",
+      "sizeBytes": 1599
+    },
+    {
+      "path": "packaging/licenses/packages/httpx/0-LICENSE.md.txt",
+      "role": "notice",
+      "sha256": "4ec59d544f12b5f539a3a716fd321ac58ccd8030b465221f2c880200cdf28d8d",
+      "sizeBytes": 1508
+    },
+    {
+      "path": "packaging/licenses/packages/httpx2/0-LICENSE.md.txt",
+      "role": "notice",
+      "sha256": "7e7d6dbaf7fe160d39fd6e84fd02c33cab96bcbea34d36998d545bceb4a19c30",
+      "sizeBytes": 1589
+    },
+    {
+      "path": "packaging/licenses/packages/huggingface-hub/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sizeBytes": 11357
+    },
+    {
+      "path": "packaging/licenses/packages/idna/0-LICENSE.md.txt",
+      "role": "notice",
+      "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04",
+      "sizeBytes": 1541
+    },
+    {
+      "path": "packaging/licenses/packages/iniconfig/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "3409fa91f7ace557894632676656e32264fe5ef7581535725dc9a23774551bd4",
+      "sizeBytes": 1098
+    },
+    {
+      "path": "packaging/licenses/packages/jiter/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "e65c152aa65deaaa52019855bf1bbce4a0d592a048cb523b6ca691965741241e",
+      "sizeBytes": 1112
+    },
+    {
+      "path": "packaging/licenses/packages/numpy/0-LICENSE.txt.txt",
+      "role": "notice",
+      "sha256": "a804dff0ead9fadc5293456410bcbfc32bf024be9c4513459663fb7b442d2341",
+      "sizeBytes": 45831
+    },
+    {
+      "path": "packaging/licenses/packages/numpy/1-LICENSE.txt.txt",
+      "role": "notice",
+      "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150",
+      "sizeBytes": 1039
+    },
+    {
+      "path": "packaging/licenses/packages/numpy/10-LICENSE.md.txt",
+      "role": "notice",
+      "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a",
+      "sizeBytes": 3582
+    },
+    {
+      "path": "packaging/licenses/packages/numpy/11-LICENSE.md.txt",
+      "role": "notice",
+      "sha256": "cf5619f25b112d5ce7c896efffc8e610bcb345dfadcc19f2c1460aa48fff2c9e",
+      "sizeBytes": 2805
+    },
+    {
+      "path": "packaging/licenses/packages/numpy/12-LICENSE.md.txt",
+      "role": "notice",
+      "sha256": "92c10699884321f1c2947fe2a70ab23b0fbf1507f756d89dd08f38c61fc3d4fa",
+      "sizeBytes": 2986
+    },
+    {
+      "path": "packaging/licenses/packages/numpy/13-LICENSE.md.txt",
+      "role": "notice",
+      "sha256": "41190663b77bee5302386495a07b7eabfbfa571aa0ae2f11da6764162062fc4f",
+      "sizeBytes": 1176
+    },
+    {
+      "path": "packaging/licenses/packages/numpy/14-LICENSE.md.txt",
+      "role": "notice",
+      "sha256": "322ac46d870c8aeead6c53adcccc839296fb3c8e456eae155081297daf7f8013",
+      "sizeBytes": 1540
+    },
+    {
+      "path": "packaging/licenses/packages/numpy/15-LICENSE.md.txt",
+      "role": "notice",
+      "sha256": "28cad82ce1379dc529df30da78ec012d7d0d1d576b03ddcb93388aee53659f59",
+      "sizeBytes": 1253
+    },
+    {
+      "path": "packaging/licenses/packages/numpy/16-LICENSE.md.txt",
+      "role": "notice",
+      "sha256": "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763",
+      "sizeBytes": 340
+    },
+    {
+      "path": "packaging/licenses/packages/numpy/17-LICENSE.txt.txt",
+      "role": "notice",
+      "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150",
+      "sizeBytes": 1039
+    },
+    {
+      "path": "packaging/licenses/packages/numpy/18-LICENSE.txt",
+      "role": "notice",
+      "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7",
+      "sizeBytes": 1616
+    },
+    {
+      "path": "packaging/licenses/packages/numpy/19-LICENSE.md.txt",
+      "role": "notice",
+      "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a",
+      "sizeBytes": 3582
+    },
+    {
+      "path": "packaging/licenses/packages/numpy/2-COPYING.txt",
+      "role": "notice",
+      "sha256": "aea41976c720f91bd19725c16916a1ace40eb1ea42620d340e587a5de4bbcea0",
+      "sizeBytes": 704
+    },
+    {
+      "path": "packaging/licenses/packages/numpy/3-LICENSE.txt",
+      "role": "notice",
+      "sha256": "d208152e2777ffd0126eacc1bd21c0320d69e4e6b622d21a2a12a47e8ef73763",
+      "sizeBytes": 21155
+    },
+    {
+      "path": "packaging/licenses/packages/numpy/4-dragon4_LICENSE.txt.txt",
+      "role": "notice",
+      "sha256": "b0fd592d4ead563148e3977e7b589169d46a5ef2ff133c755a81af880a3fc919",
+      "sizeBytes": 1441
+    },
+    {
+      "path": "packaging/licenses/packages/numpy/5-LICENSE.md.txt",
+      "role": "notice",
+      "sha256": "a732977853530066790c42817087f4829b518dd98d340c916acbfd227e39d3cb",
+      "sizeBytes": 1542
+    },
+    {
+      "path": "packaging/licenses/packages/numpy/6-LICENSE.txt",
+      "role": "notice",
+      "sha256": "585483905b13d4b42f800c55ba99e89d6e2e33ccd5f503e201c07531d148ff41",
+      "sizeBytes": 1573
+    },
+    {
+      "path": "packaging/licenses/packages/numpy/7-LICENSE.md.txt",
+      "role": "notice",
+      "sha256": "8db000e158c162e7249787852d8c69764706502ccee725c06641b31c1e95c8af",
+      "sizeBytes": 1523
+    },
+    {
+      "path": "packaging/licenses/packages/numpy/8-LICENSE.txt.txt",
+      "role": "notice",
+      "sha256": "19060ef465e1797d682ee0fc3081bd25ab1395e995e43d25c9d13c95d9a3cd6b",
+      "sizeBytes": 2314
+    },
+    {
+      "path": "packaging/licenses/packages/numpy/9-LICENSE.txt",
+      "role": "notice",
+      "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7",
+      "sizeBytes": 1616
+    },
+    {
+      "path": "packaging/licenses/packages/onnxruntime/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "c250d6278f0b47a6439fb7592b08b58a55eb9f535aa49a1db63211c3f982b674",
+      "sizeBytes": 1094
+    },
+    {
+      "path": "packaging/licenses/packages/opentelemetry-api/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sizeBytes": 11357
+    },
+    {
+      "path": "packaging/licenses/packages/packaging/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "sizeBytes": 197
+    },
+    {
+      "path": "packaging/licenses/packages/pefile/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "b44409c067c6da52bfb54bb6624fb11a7b52157c3a13ae1400232f8196e86ad3",
+      "sizeBytes": 1083
+    },
+    {
+      "path": "packaging/licenses/packages/pillow/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "4f7866a74802c6326f81faff59a56546b6aec2b10b91973e0e9308de95e79857",
+      "sizeBytes": 78016
+    },
+    {
+      "path": "packaging/licenses/packages/pip/0-AUTHORS.txt.txt",
+      "role": "notice",
+      "sha256": "4eb1fb1705e2def898e81bcba19c3aac80620d27ba3569d6a6df7b4629d1b5c2",
+      "sizeBytes": 12139
+    },
+    {
+      "path": "packaging/licenses/packages/pip/1-LICENSE.txt.txt",
+      "role": "notice",
+      "sha256": "634300a669d49aeae65b12c6c48c924c51a4cdf3d1ff086dc3456dc8bcaa2104",
+      "sizeBytes": 1093
+    },
+    {
+      "path": "packaging/licenses/packages/pip/10-LICENSE.txt",
+      "role": "notice",
+      "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6",
+      "sizeBytes": 1089
+    },
+    {
+      "path": "packaging/licenses/packages/pip/11-LICENSE.txt",
+      "role": "notice",
+      "sha256": "a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17",
+      "sizeBytes": 1331
+    },
+    {
+      "path": "packaging/licenses/packages/pip/12-LICENSE.txt",
+      "role": "notice",
+      "sha256": "1b22b049b5267d6dfc23a67bf4a84d8ec04b9fdfb1a51d360e42b4342c8b4154",
+      "sizeBytes": 1081
+    },
+    {
+      "path": "packaging/licenses/packages/pip/13-LICENSE.txt",
+      "role": "notice",
+      "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+      "sizeBytes": 10142
+    },
+    {
+      "path": "packaging/licenses/packages/pip/14-LICENSE.txt",
+      "role": "notice",
+      "sha256": "f388fd38cad13112c1dc0f669bbe80e7f84541edbafb72f3030d2ca7642c3c9d",
+      "sizeBytes": 751
+    },
+    {
+      "path": "packaging/licenses/packages/pip/15-LICENSE.txt",
+      "role": "notice",
+      "sha256": "deed7c17a4318158190a3ea239cc879a5a50271cebb98ae7025f48fbe58dca15",
+      "sizeBytes": 1056
+    },
+    {
+      "path": "packaging/licenses/packages/pip/16-LICENSE.txt",
+      "role": "notice",
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+      "sizeBytes": 1072
+    },
+    {
+      "path": "packaging/licenses/packages/pip/17-LICENSE.txt",
+      "role": "notice",
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+      "sizeBytes": 1072
+    },
+    {
+      "path": "packaging/licenses/packages/pip/18-LICENSE.txt",
+      "role": "notice",
+      "sha256": "33be7b7e8fa4fd19b1760e1a8ed8a668bdab852c91b692dd41424bcb725a9fca",
+      "sizeBytes": 1086
+    },
+    {
+      "path": "packaging/licenses/packages/pip/19-LICENSE.txt.txt",
+      "role": "notice",
+      "sha256": "130e3a64d5fdd5d096a752694634a7d9df284469de86e5732100268041e3d686",
+      "sizeBytes": 1093
+    },
+    {
+      "path": "packaging/licenses/packages/pip/2-LICENSE.txt.txt",
+      "role": "notice",
+      "sha256": "86eeee87be2a43f3ff1f56496f451f69243926f025fedbb033666c304c4c161b",
+      "sizeBytes": 558
+    },
+    {
+      "path": "packaging/licenses/packages/pip/20-LICENSE.txt.txt",
+      "role": "notice",
+      "sha256": "86eeee87be2a43f3ff1f56496f451f69243926f025fedbb033666c304c4c161b",
+      "sizeBytes": 558
+    },
+    {
+      "path": "packaging/licenses/packages/pip/21-LICENSE.txt",
+      "role": "notice",
+      "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7",
+      "sizeBytes": 989
+    },
+    {
+      "path": "packaging/licenses/packages/pip/22-LICENSE.txt.txt",
+      "role": "notice",
+      "sha256": "808e10c8a6ab8deb149ff9b3fb19f447a808094606d712a9ca57fead3552599d",
+      "sizeBytes": 14531
+    },
+    {
+      "path": "packaging/licenses/packages/pip/23-LICENSE.txt",
+      "role": "notice",
+      "sha256": "cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14",
+      "sizeBytes": 11325
+    },
+    {
+      "path": "packaging/licenses/packages/pip/24-LICENSE.md.txt",
+      "role": "notice",
+      "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04",
+      "sizeBytes": 1541
+    },
+    {
+      "path": "packaging/licenses/packages/pip/25-COPYING.txt",
+      "role": "notice",
+      "sha256": "492dedba85da5872f78e6091bcd1fea474d660d35acb4dee964b8aab3f007427",
+      "sizeBytes": 614
+    },
+    {
+      "path": "packaging/licenses/packages/pip/26-LICENSE.txt",
+      "role": "notice",
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "sizeBytes": 197
+    },
+    {
+      "path": "packaging/licenses/packages/pip/27-LICENSE.txt",
+      "role": "notice",
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+      "sizeBytes": 1023
+    },
+    {
+      "path": "packaging/licenses/packages/pip/28-LICENSE.txt",
+      "role": "notice",
+      "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6",
+      "sizeBytes": 1089
+    },
+    {
+      "path": "packaging/licenses/packages/pip/29-LICENSE.txt",
+      "role": "notice",
+      "sha256": "a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17",
+      "sizeBytes": 1331
+    },
+    {
+      "path": "packaging/licenses/packages/pip/3-LICENSE.txt",
+      "role": "notice",
+      "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7",
+      "sizeBytes": 989
+    },
+    {
+      "path": "packaging/licenses/packages/pip/30-LICENSE.txt",
+      "role": "notice",
+      "sha256": "1b22b049b5267d6dfc23a67bf4a84d8ec04b9fdfb1a51d360e42b4342c8b4154",
+      "sizeBytes": 1081
+    },
+    {
+      "path": "packaging/licenses/packages/pip/31-LICENSE.txt",
+      "role": "notice",
+      "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+      "sizeBytes": 10142
+    },
+    {
+      "path": "packaging/licenses/packages/pip/32-LICENSE.txt",
+      "role": "notice",
+      "sha256": "f388fd38cad13112c1dc0f669bbe80e7f84541edbafb72f3030d2ca7642c3c9d",
+      "sizeBytes": 751
+    },
+    {
+      "path": "packaging/licenses/packages/pip/33-LICENSE.txt",
+      "role": "notice",
+      "sha256": "deed7c17a4318158190a3ea239cc879a5a50271cebb98ae7025f48fbe58dca15",
+      "sizeBytes": 1056
+    },
+    {
+      "path": "packaging/licenses/packages/pip/34-LICENSE.txt",
+      "role": "notice",
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+      "sizeBytes": 1072
+    },
+    {
+      "path": "packaging/licenses/packages/pip/35-LICENSE.txt",
+      "role": "notice",
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+      "sizeBytes": 1072
+    },
+    {
+      "path": "packaging/licenses/packages/pip/36-LICENSE.txt",
+      "role": "notice",
+      "sha256": "33be7b7e8fa4fd19b1760e1a8ed8a668bdab852c91b692dd41424bcb725a9fca",
+      "sizeBytes": 1086
+    },
+    {
+      "path": "packaging/licenses/packages/pip/37-LICENSE.txt.txt",
+      "role": "notice",
+      "sha256": "130e3a64d5fdd5d096a752694634a7d9df284469de86e5732100268041e3d686",
+      "sizeBytes": 1093
+    },
+    {
+      "path": "packaging/licenses/packages/pip/4-LICENSE.txt.txt",
+      "role": "notice",
+      "sha256": "808e10c8a6ab8deb149ff9b3fb19f447a808094606d712a9ca57fead3552599d",
+      "sizeBytes": 14531
+    },
+    {
+      "path": "packaging/licenses/packages/pip/5-LICENSE.txt",
+      "role": "notice",
+      "sha256": "cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14",
+      "sizeBytes": 11325
+    },
+    {
+      "path": "packaging/licenses/packages/pip/6-LICENSE.md.txt",
+      "role": "notice",
+      "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04",
+      "sizeBytes": 1541
+    },
+    {
+      "path": "packaging/licenses/packages/pip/7-COPYING.txt",
+      "role": "notice",
+      "sha256": "492dedba85da5872f78e6091bcd1fea474d660d35acb4dee964b8aab3f007427",
+      "sizeBytes": 614
+    },
+    {
+      "path": "packaging/licenses/packages/pip/8-LICENSE.txt",
+      "role": "notice",
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "sizeBytes": 197
+    },
+    {
+      "path": "packaging/licenses/packages/pip/9-LICENSE.txt",
+      "role": "notice",
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+      "sizeBytes": 1023
+    },
+    {
+      "path": "packaging/licenses/packages/pluggy/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "d6b65e6c213a5d0b577911d34d6e5949b9f59d76c238c5071a2f3fc16cfb2606",
+      "sizeBytes": 1110
+    },
+    {
+      "path": "packaging/licenses/packages/protobuf/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "6e5e117324afd944dcf67f36cf329843bc1a92229a8cd9bb573d7a83130fea7d",
+      "sizeBytes": 1732
+    },
+    {
+      "path": "packaging/licenses/packages/psutil/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "c7adc4d5d1337a548b967421f1fbe258b93033a0417708fd6f4e38f8ecbceb80",
+      "sizeBytes": 1577
+    },
+    {
+      "path": "packaging/licenses/packages/pycparser/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "0a9e78156ae8b96caf1b4f11ac2df424b83de29736f9e757630548a6272fdf90",
+      "sizeBytes": 1543
+    },
+    {
+      "path": "packaging/licenses/packages/pydantic-core/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "fbe7f615f18d135c07000e5a86325db27f42c7729699ef166ac1f7a3f4586bf4",
+      "sizeBytes": 1101
+    },
+    {
+      "path": "packaging/licenses/packages/pydantic/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3",
+      "sizeBytes": 1129
+    },
+    {
+      "path": "packaging/licenses/packages/pygments/0-AUTHORS.txt",
+      "role": "notice",
+      "sha256": "71a83872ad82f57be692cf827e048e2cd51d45169cfa1ea3f28706d97a872c0f",
+      "sizeBytes": 11048
+    },
+    {
+      "path": "packaging/licenses/packages/pygments/1-LICENSE.txt",
+      "role": "notice",
+      "sha256": "a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17",
+      "sizeBytes": 1331
+    },
+    {
+      "path": "packaging/licenses/packages/pyinstaller-hooks-contrib/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "91d0baaff00773038e72c0a1fc9d5d2d38706b7a2b9c04f34296608f931b9cd0",
+      "sizeBytes": 27666
+    },
+    {
+      "path": "packaging/licenses/packages/pyinstaller/0-COPYING.txt.txt",
+      "role": "notice",
+      "sha256": "0598064c7d2718e38d7914a7d08343b2fa008e3bea9ebba2aa7a6ffa5900dd64",
+      "sizeBytes": 32604
+    },
+    {
+      "path": "packaging/licenses/packages/pystray/0-COPYING.txt",
+      "role": "notice",
+      "sha256": "1e4d0c2eb111b851de12d7b2737195b950fae3620d2a23a474ce8d46e1d2e4b6",
+      "sizeBytes": 35152
+    },
+    {
+      "path": "packaging/licenses/packages/pytest/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "ca836a5f9ecca3b2f350230faa20a48fb8b145653b5568d784862df864706b9b",
+      "sizeBytes": 1091
+    },
+    {
+      "path": "packaging/licenses/packages/pywin32-ctypes/0-LICENSE.txt.txt",
+      "role": "notice",
+      "sha256": "dfa83b3e2709adfcdb838d9ad55823ca674abb780e60563d9dd9544ccbf785e9",
+      "sizeBytes": 1644
+    },
+    {
+      "path": "packaging/licenses/packages/pyyaml/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "8d3928f9dc4490fd635707cb88eb26bd764102a7282954307d3e5167a577e8a4",
+      "sizeBytes": 1101
+    },
+    {
+      "path": "packaging/licenses/packages/requests/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+      "sizeBytes": 10142
+    },
+    {
+      "path": "packaging/licenses/packages/requests/1-NOTICE.txt",
+      "role": "notice",
+      "sha256": "f5110972dedad2b4e9d314518daf3b7d72d6e02e499acd802181de6f74571dcc",
+      "sizeBytes": 38
+    },
+    {
+      "path": "packaging/licenses/packages/setuptools/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+      "sizeBytes": 1023
+    },
+    {
+      "path": "packaging/licenses/packages/setuptools/1-LICENSE.txt",
+      "role": "notice",
+      "sha256": "ade78d04982d69972d444a8e14a94f87a2334dd3855cc80348ea8e240aa0df2d",
+      "sizeBytes": 7634
+    },
+    {
+      "path": "packaging/licenses/packages/setuptools/10-LICENSE.txt",
+      "role": "notice",
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+      "sizeBytes": 1072
+    },
+    {
+      "path": "packaging/licenses/packages/setuptools/11-LICENSE.txt.txt",
+      "role": "notice",
+      "sha256": "30c23618679108f3e8ea1d2a658c7ca417bdfc891c98ef1a89fa4ff0c9828654",
+      "sizeBytes": 1107
+    },
+    {
+      "path": "packaging/licenses/packages/setuptools/12-LICENSE.txt",
+      "role": "notice",
+      "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d",
+      "sizeBytes": 1076
+    },
+    {
+      "path": "packaging/licenses/packages/setuptools/13-NOTICE.txt",
+      "role": "notice",
+      "sha256": "2dddf08818297a3b89d43d95ff659d8da85741108c9136dfa3a4d856c0623bd8",
+      "sizeBytes": 493
+    },
+    {
+      "path": "packaging/licenses/packages/setuptools/14-NOTICE.txt",
+      "role": "notice",
+      "sha256": "09c9bcea95ca086f8bc5bed174e40bc835b297d40fb5f86bbbb570fe0a5581a7",
+      "sizeBytes": 18737
+    },
+    {
+      "path": "packaging/licenses/packages/setuptools/2-LICENSE.txt",
+      "role": "notice",
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+      "sizeBytes": 1023
+    },
+    {
+      "path": "packaging/licenses/packages/setuptools/3-LICENSE.txt",
+      "role": "notice",
+      "sha256": "458502e12d97bbf64438606a20044aa85eb05fb0a8a807bb35dbec253fd1fc04",
+      "sizeBytes": 10278
+    },
+    {
+      "path": "packaging/licenses/packages/setuptools/4-LICENSE.txt",
+      "role": "notice",
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+      "sizeBytes": 1023
+    },
+    {
+      "path": "packaging/licenses/packages/setuptools/5-LICENSE.txt",
+      "role": "notice",
+      "sha256": "9755a18519666e5f0f4cae3daad3d7012bcae48a600b31237d75e9fe134e6683",
+      "sizeBytes": 1076
+    },
+    {
+      "path": "packaging/licenses/packages/setuptools/6-LICENSE.txt",
+      "role": "notice",
+      "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d",
+      "sizeBytes": 1076
+    },
+    {
+      "path": "packaging/licenses/packages/setuptools/7-LICENSE.txt",
+      "role": "notice",
+      "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+      "sizeBytes": 1053
+    },
+    {
+      "path": "packaging/licenses/packages/setuptools/8-LICENSE.txt",
+      "role": "notice",
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "sizeBytes": 197
+    },
+    {
+      "path": "packaging/licenses/packages/setuptools/9-LICENSE.txt",
+      "role": "notice",
+      "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6",
+      "sizeBytes": 1089
+    },
+    {
+      "path": "packaging/licenses/packages/six/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "4375ba20e2b9c6c4e7cad2940a628fd90e95cc3d50ee92aae755715d8ba1fbd0",
+      "sizeBytes": 1066
+    },
+    {
+      "path": "packaging/licenses/packages/sniffio/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "652c878488d1456361e08c3f8607fd7ba59892a14103d15cce4ff93c85b5cc8b",
+      "sizeBytes": 185
+    },
+    {
+      "path": "packaging/licenses/packages/starlette/0-LICENSE.md.txt",
+      "role": "notice",
+      "sha256": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf",
+      "sizeBytes": 1518
+    },
+    {
+      "path": "packaging/licenses/packages/stripe/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "8b28bcffabe88a728cc48d37d907bd75febd0ee725fd774946912dca31bc6027",
+      "sizeBytes": 1092
+    },
+    {
+      "path": "packaging/licenses/packages/tokenizers/upstream-LICENSE.txt",
+      "role": "notice",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sizeBytes": 11357
+    },
+    {
+      "path": "packaging/licenses/packages/tqdm/0-LICENCE.txt",
+      "role": "notice",
+      "sha256": "fcff87c3a47ce8028a8512aa182d4fcf0ad1c90544ee75cf9b343684cac194de",
+      "sizeBytes": 1985
+    },
+    {
+      "path": "packaging/licenses/packages/truststore/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "33be7b7e8fa4fd19b1760e1a8ed8a668bdab852c91b692dd41424bcb725a9fca",
+      "sizeBytes": 1086
+    },
+    {
+      "path": "packaging/licenses/packages/typing-extensions/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+      "sizeBytes": 13936
+    },
+    {
+      "path": "packaging/licenses/packages/typing-inspection/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "804b59b25f2c31bd278f9202a19ae49a3945aa2664387e2d0a128c7cacc61ec3",
+      "sizeBytes": 1090
+    },
+    {
+      "path": "packaging/licenses/packages/tzdata/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "df58f69ea88683035d720b5375bcef0cf5aeaa98a1d098d572e0992c378deb46",
+      "sizeBytes": 625
+    },
+    {
+      "path": "packaging/licenses/packages/tzdata/1-LICENSE_APACHE.txt",
+      "role": "notice",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "sizeBytes": 11357
+    },
+    {
+      "path": "packaging/licenses/packages/urllib3/0-LICENSE.txt.txt",
+      "role": "notice",
+      "sha256": "130e3a64d5fdd5d096a752694634a7d9df284469de86e5732100268041e3d686",
+      "sizeBytes": 1093
+    },
+    {
+      "path": "packaging/licenses/packages/uvicorn/0-LICENSE.md.txt",
+      "role": "notice",
+      "sha256": "efe1acf3e62fb99c288b0ec73e5a773b7268ef4320fe757ea994214e4b63c371",
+      "sizeBytes": 1526
+    },
+    {
+      "path": "packaging/licenses/packages/yt-dlp/0-LICENSE.txt",
+      "role": "notice",
+      "sha256": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c",
+      "sizeBytes": 1211
+    },
+    {
+      "path": "packaging/licenses/psutil-LICENSE",
+      "role": "notice",
+      "sha256": "c7adc4d5d1337a548b967421f1fbe258b93033a0417708fd6f4e38f8ecbceb80",
+      "sizeBytes": 1577
+    },
+    {
+      "path": "packaging/licenses/pyinstaller-COPYING.txt",
+      "role": "notice",
+      "sha256": "2f71515511f67e3102ae9ba0d3ec0d3a513295262dec1fa0ab0bb2e23e9f2a77",
+      "sizeBytes": 33252
+    },
+    {
+      "path": "packaging/licenses/yt-dlp-LICENSE",
+      "role": "notice",
+      "sha256": "640514163b17f977adc997cb16f51871122cfb0555ebad1a3f01e167b7ba8857",
+      "sizeBytes": 1235
+    },
+    {
+      "path": "packaging/native/corresponding-source.zip",
+      "role": "source",
+      "sha256": "ae28e60378263af8012179d92c156e99e38d7f4b43aa3d81de0949743fe72e09",
+      "sizeBytes": 98434538
+    },
+    {
+      "path": "packaging/native/replacement-build.json",
+      "role": "source",
+      "sha256": "bad1a3ef827b0c3993d7bddcaf85a53778acafabe8916c1fdf5d668badbdeb07",
+      "sizeBytes": 2837
+    },
+    {
+      "path": "packaging/package-license-inventory.json",
+      "sha256": "82ca7a4869b4917f62f30b02b07f464f142cdb502add22bea37cbe6336c657c9",
+      "sizeBytes": 46226,
+      "role": "notice"
+    },
+    {
+      "path": "packaging/tools/compiler/Compil32.exe",
+      "sha256": "9e2adad1fe1cd6855aad9b22c511ac8bd8fc913963ab3b3c416c01e27edf2f0b",
+      "sizeBytes": 4217488,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/Default.isl",
+      "sha256": "7ee2c288450b40821d84ebd75deebe755a976cc99ddc6979b9369cdb4872d46e",
+      "sizeBytes": 20968,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/ISCC.exe",
+      "sha256": "8a430b74fd1ecef5651f514a62b5341b0c65e1a53ffe5ba33cc26cf57e67029f",
+      "sizeBytes": 940176,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/ISCmplr.dll",
+      "sha256": "2c230c3e99bc42215221b2c847356fbbe9eae33a15a842be429e94fd26e7c436",
+      "sizeBytes": 1552016,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/ISCmplr.dll.issig",
+      "sha256": "4612115124e4f0b638f5728dc4e6248224ddf8d0d495b15553467e5c160495d6",
+      "sizeBytes": 329,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/ISPP.dll",
+      "sha256": "df4a8792bc1994d67b5ca9366d8e4e531d11511bf1013fe18fd0236b1caa6edf",
+      "sizeBytes": 999568,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/ISPP.dll.issig",
+      "sha256": "4a69f3d76af0d046a202759550601bbcf96c7246523d6502e5f8586917c1fc58",
+      "sizeBytes": 328,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/ISPPBuiltins.iss",
+      "sha256": "e281b50b8c9152802dbb6ecbd29198641e71a1fd842f873b0a6274208eb6c91f",
+      "sizeBytes": 10471,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/ISSigTool.exe",
+      "sha256": "13cc3371c7db2b52634611d4ccce81511d722da0e8c0b208444d5745c5b18d60",
+      "sizeBytes": 907408,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/ISetup-dark.chm",
+      "sha256": "ab11b8802a647a4f103e084fa80eae5946569369b46c7924d43f978d938cfefc",
+      "sizeBytes": 477114,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/ISetup.chm",
+      "sha256": "779839d11fcdc670ec24746caa212e3a910d1cc27eaebbd3461c65d920744cee",
+      "sizeBytes": 477664,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/Setup.e32",
+      "sha256": "7c6bd0199a25b57eb60ea00f220fc80375eec545be0eb953f9e69b7be8639191",
+      "sizeBytes": 3564544,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/SetupClassicIcon.ico",
+      "sha256": "fa07ed17dff186a5b46c16861158bf3a36b67d84ff7a7bf9a58eaad28143d827",
+      "sizeBytes": 4710,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/SetupLdr.e32",
+      "sha256": "ad013b1b595be65cfb92b122b3aa81c13eb6cb0d978ef25b6455f96eae07baeb",
+      "sizeBytes": 867840,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/WizClassicImage-IS.bmp",
+      "sha256": "1b73df0b89a2943f34582cf81c2d8ed7b1ce4cfb54d86ce58ebd6dd0e1e05f5d",
+      "sizeBytes": 52574,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/WizClassicImage.bmp",
+      "sha256": "d148dc2569e9abc4b4da650b1920ef1ffdc10bbd6bc2e20a97ce44b1f9f78aea",
+      "sizeBytes": 26494,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/WizClassicSmallImage-IS.bmp",
+      "sha256": "ae94cd61179bc1869d0082b1fa8c189f8487d106712b48a2a6c6a035d370bfb4",
+      "sizeBytes": 4158,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/WizClassicSmallImage.bmp",
+      "sha256": "a7e560d419e85daf80cce980baa124ef7c73197d0f51a59a19f1866ee8edfe8c",
+      "sizeBytes": 1658,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/isbunzip.dll",
+      "sha256": "31d04c1e4bfdfa34704c142fa98f80c0a3076e4b312d6ada57c4be9d9c7dcf26",
+      "sizeBytes": 35616,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/isbzip.dll",
+      "sha256": "8072e83385afc4a84006271a87a11fc0a22b149cbd77322669ca56c470d28ced",
+      "sizeBytes": 39200,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/isbzip.dll.issig",
+      "sha256": "7ad1d42e8f8742d848715558a69772ee06574da6cd494e80531c04236316bc0f",
+      "sizeBytes": 327,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/isfaq.url",
+      "sha256": "f699ce64c194310524ca1dca5bfc996151619cc5c6731fbc5fa150b59c9d3c72",
+      "sizeBytes": 58,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/islzma.dll",
+      "sha256": "b252471e95f0853902b15ae71a90574f9b168f8d4a0c474b20537511f90220a5",
+      "sizeBytes": 135816,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/islzma.dll.issig",
+      "sha256": "edaedb92eda41e8222c5a2fd261b5d1b9fefa3d978fb2bb8a1390610cba40d74",
+      "sizeBytes": 328,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/islzma32.exe",
+      "sha256": "5665e03297af04d4f90423b56e8b016b2924d91ba781573036b710044e843f0a",
+      "sizeBytes": 199304,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/islzma64.exe",
+      "sha256": "b0ad1857da7fb94b54988c7633578dc057b51cf921b94f6f2f7b57a113310712",
+      "sizeBytes": 230536,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/isscint.dll",
+      "sha256": "5ae5dcd47ae9cd0929e0d6b2591e2ecc14cb8dfe4e04fb37a6cef5f1896edd11",
+      "sizeBytes": 795776,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/isscint.dll.issig",
+      "sha256": "a3a86ebd559f6e81bb7a4281a8e30c6f39bbf93b8487c3de323b4b5fee840ab8",
+      "sizeBytes": 328,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/isunzlib.dll",
+      "sha256": "8287d0e287a66ee78537c8d1d98e426562b95c50f569b92cea9ce36a9fa57e64",
+      "sizeBytes": 29472,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/iszlib.dll",
+      "sha256": "14c0d4a2a41572384f8309cdf03de5c6e7ed46bef64cce70d989b2665eff1a47",
+      "sizeBytes": 34592,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/iszlib.dll.issig",
+      "sha256": "6a3030a1791b139fa41152e347ce25a2ab2eb0344c29e09ec928ba0dd9e4766f",
+      "sizeBytes": 327,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/license.txt",
+      "sha256": "a7f97b166be34fc8bf04e79617b9f56b2aa7903a2808f94155e449c80bdfdcc2",
+      "sizeBytes": 1521,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/compiler/whatsnew.htm",
+      "sha256": "ca9149c82e74b3c9223804f14d74c8b6a825ffd4aa9a202e901839920df6aa61",
+      "sizeBytes": 18265,
+      "role": "compiler"
+    },
+    {
+      "path": "packaging/tools/ffmpeg.exe",
+      "sha256": "1c30dc1be8aa42ad8086df23d2b698c29036b1131d852244c60e2e77348a272f",
+      "sizeBytes": 27175936,
+      "role": "media"
+    },
+    {
+      "path": "packaging/tools/ffprobe.exe",
+      "sha256": "692666b9fe272c364117364242675fb89f5d1c1bd8cc66cbc638c80808c4922e",
+      "sizeBytes": 26906624,
+      "role": "media"
+    },
+    {
+      "path": "packaging/tools/runtime/msvcp140.dll",
+      "role": "media",
+      "sha256": "0f885b509a685d2bbfa652fed26b5fb31d88fbdab0a978c641d1c7b8aa460aa9",
+      "sizeBytes": 557728
+    },
+    {
+      "path": "packaging/tools/runtime/msvcp140_1.dll",
+      "role": "media",
+      "sha256": "bfad5aef4c63a669e3c140655cdfdf395b6c979b400a447bd5dcb65ed8826c3d",
+      "sizeBytes": 35952
+    },
+    {
+      "path": "packaging/tools/runtime/vcruntime140.dll",
+      "role": "media",
+      "sha256": "d5e4d9a3e835fa679450145d6a7d94e36573a509317111904d9b3712c30d9066",
+      "sizeBytes": 124544
+    },
+    {
+      "path": "packaging/tools/runtime/vcruntime140_1.dll",
+      "role": "media",
+      "sha256": "1f2d41c4aa5db0bc33ebf7b66d72943a817d7ce6cbe880502a9403823633093f",
+      "sizeBytes": 49792
+    },
+    {
+      "path": "packaging/tools/wheels/av-18.0.0-cp311-abi3-win_amd64.whl",
+      "role": "media",
+      "sha256": "767e92d2fcdb6b982706616670b7eeb20f7a388afacc55821886435465164a6f",
+      "sizeBytes": 11418834
+    },
+    {
+      "path": "packaging/tools/yt-dlp.exe",
+      "sha256": "66674953fe251b89f4d08c5f0e35e0728679bd67ab3d7d05c0562af101dd3e7a",
+      "sizeBytes": 17840399,
+      "role": "media"
+    },
+    {
+      "path": "packaging/worker-build.lock",
+      "sha256": "5e31ccadecc7417ddb756fda1f0c9fc75369b6c91a4c85d97dc9e31f5decf334",
+      "sizeBytes": 6377,
+      "role": "lock"
+    },
+    {
+      "path": "worker/data/models/base/config.json",
+      "sha256": "56a6d8110d311f19c8f0471e562832c7527f146b567275bfca59fcf7c184da9a",
+      "sizeBytes": 2309,
+      "role": "model"
+    },
+    {
+      "path": "worker/data/models/base/model.bin",
+      "sha256": "d01c3014881c9c6f3133c182f3d2887eb6ca1c789a7538c5c007196857a0a6a9",
+      "sizeBytes": 145217532,
+      "role": "model"
+    },
+    {
+      "path": "worker/data/models/base/tokenizer.json",
+      "sha256": "fb7b63191e9bb045082c79fd742a3106a12c99513ab30df4a0d47fa6cb6fd0ab",
+      "sizeBytes": 2203239,
+      "role": "model"
+    },
+    {
+      "path": "worker/data/models/base/vocabulary.txt",
+      "sha256": "34ce3fe1c5041027b3f8d42912270993f986dbc4bb34cf27f951e34a1e453913",
+      "sizeBytes": 459861,
+      "role": "model"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "targets": ["linux-x86_64"],
+  "python": "3.12.15",
+  "releaseVersion": "0.3.0-beta.1",
+  "distributions": ["Ubuntu 24.04 LTS", "Ubuntu 26.04 LTS", "Linux Mint 22.x"],
+  "candidateMinimumOS": "Ubuntu 24.04 LTS - Linux Mint 22.x",
+  "minimumOSRequiresNativeInspection": true,
+  "vcpkgBaseline": "c52f7bd748185ef0e0daf033d9f2ddfc8a3449ea",
+  "pyavSourceCommit": "54a4395bb4cdd9cdd53ff6216c50b69f6475c13d",
+  "desktopPackages": ["libsecret-1-0", "gnome-keyring", "libayatana-appindicator3-1", "gir1.2-ayatanaappindicator3-0.1"],
+  "signed": false,
+  "publicReleaseApproved": false
+}

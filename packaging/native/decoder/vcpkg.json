@@ -1,0 +1,13 @@
+{
+  "name": "clipbot-native-decoder",
+  "version-string": "0.2.8",
+  "builtin-baseline": "c52f7bd748185ef0e0daf033d9f2ddfc8a3449ea",
+  "dependencies": [
+    {
+      "name": "ffmpeg",
+      "default-features": false,
+      "features": ["avcodec", "avdevice", "avfilter", "avformat", "swresample", "swscale"]
+    }
+  ],
+  "overrides": [{"name": "ffmpeg", "version": "8.1.2", "port-version": 3}]
+}

@@ -1,0 +1,14 @@
+ClipBot Companion. Release version and signature status are recorded in manifest.json.
+Bundled runtime dependencies retain their license files and metadata.
+Python: https://www.python.org/psf/license/
+pystray: LGPL-3.0, https://github.com/moses-palmer/pystray
+Pillow: HPND, https://github.com/python-pillow/Pillow
+PyInstaller bootloader: GPL with distribution exception, https://pyinstaller.org/en/stable/license.html
+faster-whisper: MIT, https://github.com/SYSTRAN/faster-whisper
+Whisper model base: MIT, https://github.com/openai/whisper
+Model snapshot: Systran/faster-whisper-base ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66
+yt-dlp binary: official release 2026.08.19, https://github.com/yt-dlp/yt-dlp/releases/tag/2026.08.19
+FFmpeg/ffprobe run as separate executables. Redistribution must retain the build's license and provide corresponding source for its included components. See licenses/FFmpeg-build.txt for exact installed build configuration and upstream source references. Public binary release is gated on corresponding-source completeness.
+Inno Setup compiler 6.4.3: Copyright Jordan Russell/Martijn Laan. https://jrsoftware.org/ (permissive commercial-use release).
+
+Package license inventory: licenses/PACKAGE-LICENSES.json records the notices, versions, hashes and provenance for the 64 reviewed runtime/build distributions. Individual texts are under licenses/packages/. Python and Inno Setup license texts are included separately. Matching native source/build records for the local FFmpeg/PyAV replacements are included in licenses/native/corresponding-source.zip. See licenses/native/README.txt; public release still requires final installer acceptance.

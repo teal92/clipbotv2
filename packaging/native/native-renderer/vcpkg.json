@@ -1,0 +1,13 @@
+{
+  "name": "clipbot-native-renderer",
+  "version-string": "0.3.0-beta.1",
+  "builtin-baseline": "c52f7bd748185ef0e0daf033d9f2ddfc8a3449ea",
+  "dependencies": [
+    {
+      "name": "ffmpeg",
+      "default-features": false,
+      "features": ["avcodec", "avfilter", "avformat", "swresample", "swscale", "ffmpeg", "ffprobe", "ass", "x264", "openssl", "version3"]
+    }
+  ],
+  "overrides": [{"name": "ffmpeg", "version": "8.1.2", "port-version": 3}]
+}

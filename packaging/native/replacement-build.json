@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "sourceReceipt": {
+    "nativePackagesWithMatchingSourceRecords": 11,
+    "files": 107,
+    "sourceArchive": "clipbot-native-sources-0.2.8-r3.zip",
+    "bytes": 98434538,
+    "sha256": "ae28e60378263af8012179d92c156e99e38d7f4b43aa3d81de0949743fe72e09",
+    "installerAccepted": false
+  },
+  "mediaAcceptance": {
+    "sourceBuiltPyav": true,
+    "pyav": "18.0.0",
+    "ffmpeg": "8.1.2",
+    "h264Decoded": true,
+    "aacDecoded": true,
+    "localWhisperModelLoaded": true,
+    "syntheticSpeechRecognized": true,
+    "transcriptionSegments": 7,
+    "controlledMicrosoftRuntime": true,
+    "verticalRender": {
+      "width": 1080,
+      "height": 1920,
+      "videoCodec": "h264",
+      "audioCodec": "aac",
+      "duration": 15.0,
+      "sha256": "2a4e6551fa86b787455c87fae248167cf19b56158e75794323fce026cf9428bf"
+    },
+    "elapsedSeconds": 5.86,
+    "paidRequests": 0,
+    "socialPosts": 0,
+    "customerMedia": false,
+    "frozenInstallerAccepted": false
+  },
+  "microsoftRuntime": [
+    {
+      "file": "msvcp140.dll",
+      "version": "14.44.35211.0",
+      "sha256": "0f885b509a685d2bbfa652fed26b5fb31d88fbdab0a978c641d1c7b8aa460aa9",
+      "signature": "Valid",
+      "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "origin": "Visual Studio 2022 Build Tools VC/Redist/MSVC/14.44.35112/x64/Microsoft.VC143.CRT"
+    },
+    {
+      "file": "msvcp140_1.dll",
+      "version": "14.44.35211.0",
+      "sha256": "bfad5aef4c63a669e3c140655cdfdf395b6c979b400a447bd5dcb65ed8826c3d",
+      "signature": "Valid",
+      "publisher": "CN=Microsoft Windows Software Compatibility Publisher, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "origin": "Visual Studio 2022 Build Tools VC/Redist/MSVC/14.44.35112/x64/Microsoft.VC143.CRT"
+    },
+    {
+      "file": "vcruntime140.dll",
+      "version": "14.44.35211.0",
+      "sha256": "d5e4d9a3e835fa679450145d6a7d94e36573a509317111904d9b3712c30d9066",
+      "signature": "Valid",
+      "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "origin": "Visual Studio 2022 Build Tools VC/Redist/MSVC/14.44.35112/x64/Microsoft.VC143.CRT"
+    },
+    {
+      "file": "vcruntime140_1.dll",
+      "version": "14.44.35211.0",
+      "sha256": "1f2d41c4aa5db0bc33ebf7b66d72943a817d7ce6cbe880502a9403823633093f",
+      "signature": "Valid",
+      "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "origin": "Visual Studio 2022 Build Tools VC/Redist/MSVC/14.44.35112/x64/Microsoft.VC143.CRT"
+    }
+  ],
+  "pyavWheelSha256": "767e92d2fcdb6b982706616670b7eeb20f7a388afacc55821886435465164a6f",
+  "decoderDllsVerified": 7,
+  "publicReleaseAccepted": false
+}

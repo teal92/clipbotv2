@@ -1,0 +1,26 @@
+# Private pre-launch deployment only. Public registration and Claude dispatch remain off.
+services:
+  - type: web
+    name: clipbot-prelaunch
+    runtime: python
+    plan: starter
+    buildCommand: python tools/dependency_policy.py && python -m pip --isolated --disable-pip-version-check install --no-deps -r packaging/server-build-tools.lock && python -m pip --isolated --disable-pip-version-check install -r requirements.txt
+    startCommand: uvicorn server.app:create_app --factory --host 0.0.0.0 --port $PORT --no-proxy-headers --no-access-log
+    healthCheckPath: /healthz
+    envVars:
+      - key: CLIPBOT_ORIGIN
+        sync: false
+      - key: CLIPBOT_DEV_BYPASS
+        value: '0'
+      - key: CLIPBOT_LOCAL_SIGNUP
+        value: '0'
+      - key: CLIPBOT_GLOBAL_MONTHLY_USD
+        value: '400'
+      - key: CLIPBOT_GLOBAL_DAILY_USD
+        value: '20'
+      - key: CLIPBOT_DB_PATH
+        value: /var/data/clipbot.db
+    disk:
+      name: clipbot-account-data
+      mountPath: /var/data
+      sizeGB: 1

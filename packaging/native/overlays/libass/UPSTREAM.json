@@ -1,0 +1,22 @@
+{
+  "registryCommit": "c52f7bd748185ef0e0daf033d9f2ddfc8a3449ea",
+  "upstream": {
+    "portfile.cmake": {
+      "url": "https://raw.githubusercontent.com/microsoft/vcpkg/c52f7bd748185ef0e0daf033d9f2ddfc8a3449ea/ports/libass/portfile.cmake",
+      "upstreamSha256": "ef0a929524130bad7e49425e6302dfa179a40a2c8719922f492b4acf54745b73"
+    },
+    "vcpkg.json": {
+      "url": "https://raw.githubusercontent.com/microsoft/vcpkg/c52f7bd748185ef0e0daf033d9f2ddfc8a3449ea/ports/libass/vcpkg.json",
+      "upstreamSha256": "7a7845216adec3dbce5ff87817b923be9b8e0dcb30ade6e1538d4d7bfb2ec59f"
+    },
+    "arm64-windows-asm.patch": {
+      "url": "https://raw.githubusercontent.com/microsoft/vcpkg/c52f7bd748185ef0e0daf033d9f2ddfc8a3449ea/ports/libass/arm64-windows-asm.patch",
+      "upstreamSha256": "db95650dba01c030cab9a16fd15f22d933671c183b87844af667509d7fce4128"
+    },
+    "UPSTREAM-LICENSE.txt": {
+      "url": "https://raw.githubusercontent.com/microsoft/vcpkg/c52f7bd748185ef0e0daf033d9f2ddfc8a3449ea/LICENSE.txt",
+      "upstreamSha256": "1ee376fc340e0aa6ad6a3581c94126e741468705096ac92263048a21daa86460"
+    }
+  },
+  "localChange": "Explicit Mac Core Text provider; disable host Fontconfig autodetection. Source hashes, upstream license and other target behavior preserved."
+}

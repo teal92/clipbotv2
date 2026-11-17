@@ -1,0 +1,24 @@
+{
+  "sourceBuiltPyav": true,
+  "pyav": "18.0.0",
+  "ffmpeg": "8.1.2",
+  "h264Decoded": true,
+  "aacDecoded": true,
+  "localWhisperModelLoaded": true,
+  "syntheticSpeechRecognized": true,
+  "transcriptionSegments": 7,
+  "controlledMicrosoftRuntime": true,
+  "verticalRender": {
+    "width": 1080,
+    "height": 1920,
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "duration": 15.0,
+    "sha256": "2a4e6551fa86b787455c87fae248167cf19b56158e75794323fce026cf9428bf"
+  },
+  "elapsedSeconds": 5.86,
+  "paidRequests": 0,
+  "socialPosts": 0,
+  "customerMedia": false,
+  "frozenInstallerAccepted": false
+}

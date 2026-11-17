@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-10-15",
+  "complete": true,
+  "purpose": "Matching source/build records for actual local replacements; not a legal certification or installer acceptance.",
+  "sourceArchive": "packaging/native/corresponding-source.zip",
+  "sourceArchiveReceipt": {
+    "nativePackagesWithMatchingSourceRecords": 11,
+    "files": 107,
+    "sourceArchive": "clipbot-native-sources-0.2.8-r3.zip",
+    "bytes": 98434538,
+    "sha256": "ae28e60378263af8012179d92c156e99e38d7f4b43aa3d81de0949743fe72e09",
+    "installerAccepted": false
+  },
+  "registry": "c52f7bd748185ef0e0daf033d9f2ddfc8a3449ea",
+  "pyavSourceCommit": "54a4395bb4cdd9cdd53ff6216c50b69f6475c13d",
+  "nativePackages": [
+    {
+      "profile": "decoder",
+      "name": "ffmpeg",
+      "resources": [
+        {
+          "name": "ffmpeg/ffmpeg",
+          "source": "git+https://github.com/ffmpeg/ffmpeg@n8.1.2",
+          "archive": "ffmpeg-ffmpeg-n8.1.2.tar.gz",
+          "sha512": "c72f4062aecc16d8b2b1e8678d5efe3af4cfaa0cc7c0997052248f9e499e60c2463acf07877cf3b78b246ce3e8078cb043e8d97e90a6b50d06af32ff7369a788",
+          "sha256": "9fd092511605bbebafe095ea6d38d9e40f34d12f7386e1258372df8be0576eb7"
+        }
+      ]
+    },
+    {
+      "profile": "renderer",
+      "name": "brotli",
+      "resources": [
+        {
+          "name": "google/brotli",
+          "source": "git+https://github.com/google/brotli@v1.2.0",
+          "archive": "google-brotli-v1.2.0.tar.gz",
+          "sha512": "f94542afd2ecd96cc41fd21a805a3da314281ae558c10650f3e6d9ca732b8425bba8fde312823f0a564c7de3993bdaab5b43378edab65ebb798cefb6fd702256",
+          "sha256": "816c96e8e8f193b40151dad7e8ff37b1221d019dbcb9c35cd3fadbfe6477dfec"
+        }
+      ]
+    },
+    {
+      "profile": "renderer",
+      "name": "bzip2",
+      "resources": [
+        {
+          "name": "bzip2-1.0.8.tar.gz",
+          "source": "https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz",
+          "archive": "bzip2-1.0.8.tar.gz",
+          "sha512": "083f5e675d73f3233c7930ebe20425a533feedeaaa9d8cc86831312a6581cefbe6ed0d08d2fa89be81082f2a5abdabca8b3c080bf97218a1bd59dc118a30b9f3",
+          "sha256": "ab5a03176ee106d3f0fa90e381da478ddae405918153cca248e682cd0c4a2269"
+        }
+      ]
+    },
+    {
+      "profile": "renderer",
+      "name": "ffmpeg",
+      "resources": [
+        {
+          "name": "ffmpeg/ffmpeg",
+          "source": "git+https://github.com/ffmpeg/ffmpeg@n8.1.2",
+          "archive": "ffmpeg-ffmpeg-n8.1.2.tar.gz",
+          "sha512": "c72f4062aecc16d8b2b1e8678d5efe3af4cfaa0cc7c0997052248f9e499e60c2463acf07877cf3b78b246ce3e8078cb043e8d97e90a6b50d06af32ff7369a788",
+          "sha256": "9fd092511605bbebafe095ea6d38d9e40f34d12f7386e1258372df8be0576eb7"
+        }
+      ]
+    },
+    {
+      "profile": "renderer",
+      "name": "freetype",
+      "resources": [
+        {
+          "name": "freetype/freetype",
+          "source": "git+https://gitlab.freedesktop.org//freetype/freetype@VER-2-14-3",
+          "archive": "freetype-freetype-VER-2-14-3.tar.gz",
+          "sha512": "c3b6b0cc4b428c9c647ab2148386901dfd315273b68051940e8fea6010d46fdd2913467c3ef58be0d499b8e2ef5a0f1a4cc5e739756155587f4f7dff08ef9695",
+          "sha256": "dc49de6b01a266eef4876a4dd34d9842c475d3e28ff2eff63bd2fb760ab56261"
+        }
+      ]
+    },
+    {
+      "profile": "renderer",
+      "name": "fribidi",
+      "resources": [
+        {
+          "name": "fribidi/fribidi",
+          "source": "git+https://github.com/fribidi/fribidi@v1.0.17",
+          "archive": "fribidi-fribidi-v1.0.17.tar.gz",
+          "sha512": "7cb021b2e2e25f5a9867e0c05cc5c0d2b9668172fb9409dda5b5ec330af57448c83afe82ff287e9f23488175aba65a9b7b628c221a8724959ffb42752361c5a1",
+          "sha256": "ab015bb040b2ff4bf815813c21948947dad1e0186473359e99a8881c79878d5d"
+        }
+      ]
+    },
+    {
+      "profile": "renderer",
+      "name": "harfbuzz",
+      "resources": [
+        {
+          "name": "harfbuzz/harfbuzz",
+          "source": "git+https://github.com/harfbuzz/harfbuzz@14.5.1",
+          "archive": "harfbuzz-harfbuzz-14.5.1.tar.gz",
+          "sha512": "18cd352c3879c8b44f150c9a3171f3790c3c641e161ae1f5591c8156cf8c551aa45c7873cb6ddc9138e2fdc6c331d6812c21e6a210eb1385dd2813a738317593",
+          "sha256": "a058ff4c32dad1e163cd62dce4bca81035f7fbc060bc52fc97f6079c4446ec44"
+        }
+      ]
+    },
+    {
+      "profile": "renderer",
+      "name": "libass",
+      "resources": [
+        {
+          "name": "libass/libass",
+          "source": "git+https://github.com/libass/libass@0.17.5",
+          "archive": "libass-libass-0.17.5.tar.gz",
+          "sha512": "8dfea8ef3043ace28efa8a6ae4d6a443fd19d49ad19a521a642e7ec3a7c6f97284cda16d479e168ce30bd560f7e05a0675c9f3fde872bb92ed650343499a57b1",
+          "sha256": "fa286fc9ee1ba3b932703a3df7b8474d01dc8abe29ec69b6fa68781dc4bf7acc"
+        }
+      ]
+    },
+    {
+      "profile": "renderer",
+      "name": "libpng",
+      "resources": [
+        {
+          "name": "pnggroup/libpng",
+          "source": "git+https://github.com/pnggroup/libpng@v1.6.59",
+          "archive": "pnggroup-libpng-v1.6.59.tar.gz",
+          "sha512": "2d753e764846a0a75a10f2a00c6f4ae23d2ae37237c69d59d5e619da3f143d59f4ea9ce29c1fb39435df1cef77877c83b042a2275934c353a6603061da2d2dd9",
+          "sha256": "2540302a1844ad2b2b501977abecfa850f265f97b78f065a712ab4074a89f5b5"
+        }
+      ]
+    },
+    {
+      "profile": "renderer",
+      "name": "x264",
+      "resources": [
+        {
+          "name": "videolan/x264",
+          "source": "git+https://code.videolan.org/videolan/x264@b35605ace3ddf7c1a5d67a2eb553f034aef41d55",
+          "archive": "videolan-x264-b35605ace3ddf7c1a5d67a2eb553f034aef41d55.tar.gz",
+          "sha512": "bfac118da55da2fcc4587b17a3184d9ed70d6e03188bc0497f5922df22b5685fa49fa4325f9c5196c76d03e6e3f56d5906475c540d0df7e1739dc4182816eebe",
+          "sha256": "cd71a7515b0e9a012e1ac9b1f8415bebcaf6fc97d4db32286642ac4c0fbe24f9"
+        }
+      ]
+    },
+    {
+      "profile": "renderer",
+      "name": "zlib",
+      "resources": [
+        {
+          "name": "madler/zlib",
+          "source": "git+https://github.com/madler/zlib@v1.3.2",
+          "archive": "madler-zlib-v1.3.2.tar.gz",
+          "sha512": "16fea4df307a68cf0035858abe2fd550250618a97590e202037acd18a666f57afc10f8836cbbd472d54a0e76539d0e558cb26f059d53de52ff90634bbf4f47d4",
+          "sha256": "b99a0b86c0ba9360ec7e78c4f1e43b1cbdf1e6936c8fa0f6835c0cd694a495a1"
+        }
+      ]
+    }
+  ],
+  "microsoftRedistributables": [
+    {
+      "file": "msvcp140.dll",
+      "version": "14.44.35211.0",
+      "sha256": "0f885b509a685d2bbfa652fed26b5fb31d88fbdab0a978c641d1c7b8aa460aa9",
+      "signature": "Valid",
+      "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "origin": "Visual Studio 2022 Build Tools VC/Redist/MSVC/14.44.35112/x64/Microsoft.VC143.CRT"
+    },
+    {
+      "file": "msvcp140_1.dll",
+      "version": "14.44.35211.0",
+      "sha256": "bfad5aef4c63a669e3c140655cdfdf395b6c979b400a447bd5dcb65ed8826c3d",
+      "signature": "Valid",
+      "publisher": "CN=Microsoft Windows Software Compatibility Publisher, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "origin": "Visual Studio 2022 Build Tools VC/Redist/MSVC/14.44.35112/x64/Microsoft.VC143.CRT"
+    },
+    {
+      "file": "vcruntime140.dll",
+      "version": "14.44.35211.0",
+      "sha256": "d5e4d9a3e835fa679450145d6a7d94e36573a509317111904d9b3712c30d9066",
+      "signature": "Valid",
+      "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "origin": "Visual Studio 2022 Build Tools VC/Redist/MSVC/14.44.35112/x64/Microsoft.VC143.CRT"
+    },
+    {
+      "file": "vcruntime140_1.dll",
+      "version": "14.44.35211.0",
+      "sha256": "1f2d41c4aa5db0bc33ebf7b66d72943a817d7ce6cbe880502a9403823633093f",
+      "signature": "Valid",
+      "publisher": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "origin": "Visual Studio 2022 Build Tools VC/Redist/MSVC/14.44.35112/x64/Microsoft.VC143.CRT"
+    }
+  ],
+  "superseded": "Gyan full-build executables and PyAV 8.1.2-1 vendored MinGW binaries are not used.",
+  "bitForBitReproducibilityEstablished": false
+}

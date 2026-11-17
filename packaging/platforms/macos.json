@@ -1,0 +1,12 @@
+{
+  "targets": ["macos-arm64", "macos-x86_64"],
+  "python": "3.12.15",
+  "releaseVersion": "0.3.0-beta.1",
+  "candidateMinimumOS": "14.0",
+  "minimumOSRequiresNativeInspection": true,
+  "vcpkgBaseline": "c52f7bd748185ef0e0daf033d9f2ddfc8a3449ea",
+  "pyavSourceCommit": "54a4395bb4cdd9cdd53ff6216c50b69f6475c13d",
+  "signed": false,
+  "notarized": false,
+  "publicReleaseApproved": false
+}

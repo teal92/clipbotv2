@@ -1,0 +1,994 @@
+{
+  "schemaVersion": 1,
+  "packagesReviewed": 64,
+  "complete": true,
+  "scope": "Runtime/build distribution notices only; native corresponding-source completeness remains separate.",
+  "records": [
+    {
+      "package": "altgraph",
+      "version": "0.17.5",
+      "path": "packaging/licenses/packages/altgraph/0-LICENSE.txt",
+      "sha256": "6c194d6db0c64d45535d10c95142b9b0cda7b7dcc7f1ddee302b3d536f3dbe46",
+      "source": "reviewed installed distribution: altgraph-0.17.5.dist-info/LICENSE"
+    },
+    {
+      "package": "annotated-doc",
+      "version": "0.0.5",
+      "path": "packaging/licenses/packages/annotated-doc/0-LICENSE.txt",
+      "sha256": "fff170779a6acbf65abdb405c087f1cee1786691e4a96a4034517e4a504a0cdf",
+      "source": "reviewed installed distribution: annotated_doc-0.0.5.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "annotated-types",
+      "version": "0.8.0",
+      "path": "packaging/licenses/packages/annotated-types/0-LICENSE.txt",
+      "sha256": "fe1049884b1a0d9342901e88e07f32925d24b3121d9972b6a6805fb9824b095d",
+      "source": "reviewed installed distribution: annotated_types-0.8.0.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "anthropic",
+      "version": "1.13.0",
+      "path": "packaging/licenses/packages/anthropic/0-LICENSE.txt",
+      "sha256": "8bf96984ff8bcfae7e48cae76a529e8a25317ba9e02abf7fd3cc64fdf95657a6",
+      "source": "reviewed installed distribution: anthropic-1.13.0.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "anthropic",
+      "version": "1.13.0",
+      "path": "packaging/licenses/packages/anthropic/1-LICENSE.txt",
+      "sha256": "154759c1e9eb58e42643ee43ec59d556def4d1d702d911a484c469e02f85dd5d",
+      "source": "reviewed installed distribution: anthropic/_vendor/httpx_aiohttp/LICENSE"
+    },
+    {
+      "package": "anthropic",
+      "version": "1.13.0",
+      "path": "packaging/licenses/packages/anthropic/2-NOTICE.md.txt",
+      "sha256": "90f45e20cf0b5c730d956ad93d3cd68ab4466b9c7490ac2a1999c8dcbd521562",
+      "source": "reviewed installed distribution: anthropic/_vendor/httpx_aiohttp/NOTICE.md"
+    },
+    {
+      "package": "anyio",
+      "version": "4.15.1",
+      "path": "packaging/licenses/packages/anyio/0-LICENSE.txt",
+      "sha256": "5361ac9dc58f2ef5fd2e9b09c68297c17f04950909bbc8023bdb82eacf22c2b0",
+      "source": "reviewed installed distribution: anyio-4.15.1.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "av",
+      "version": "18.0.0",
+      "path": "packaging/licenses/packages/av/0-AUTHORS.rst.txt",
+      "sha256": "72d1011120cc21e6c668e880c187534e84ad775b5b4485f3f3848065e474d83f",
+      "source": "reviewed installed distribution: av-18.0.0.dist-info/licenses/AUTHORS.rst"
+    },
+    {
+      "package": "av",
+      "version": "18.0.0",
+      "path": "packaging/licenses/packages/av/1-LICENSE.txt.txt",
+      "sha256": "f32ebcb6007dcc05eea369b3820e6391b0a7ef1ed763f30f1aca15dfdbacbe96",
+      "source": "reviewed installed distribution: av-18.0.0.dist-info/licenses/LICENSE.txt"
+    },
+    {
+      "package": "certifi",
+      "version": "2026.7.22",
+      "path": "packaging/licenses/packages/certifi/0-LICENSE.txt",
+      "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7",
+      "source": "reviewed installed distribution: certifi-2026.7.22.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "cffi",
+      "version": "2.1.1",
+      "path": "packaging/licenses/packages/cffi/0-LICENSE.txt",
+      "sha256": "5ba24ddc57067f9249add644c3afc41a5d6dc37e23433ef759d95df370b0af63",
+      "source": "reviewed installed distribution: cffi-2.1.1.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "charset-normalizer",
+      "version": "3.5.2",
+      "path": "packaging/licenses/packages/charset-normalizer/0-LICENSE.txt",
+      "sha256": "18577485d3704f1a479ded8e573c0976cfed315fd2fd17983fa988da4c2f70d1",
+      "source": "reviewed installed distribution: charset_normalizer-3.5.2.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "click",
+      "version": "8.5.0",
+      "path": "packaging/licenses/packages/click/0-LICENSE.txt.txt",
+      "sha256": "9a8ad106a394e853bfe21f42f4e72d592819a22805d991b5f3275029292b658d",
+      "source": "reviewed installed distribution: click-8.5.0.dist-info/licenses/LICENSE.txt"
+    },
+    {
+      "package": "colorama",
+      "version": "0.4.6",
+      "path": "packaging/licenses/packages/colorama/0-LICENSE.txt.txt",
+      "sha256": "cac35c02686e5d04a5a7140bfb3b36e73aed496656e891102e428886d7930318",
+      "source": "reviewed installed distribution: colorama-0.4.6.dist-info/licenses/LICENSE.txt"
+    },
+    {
+      "package": "cryptography",
+      "version": "50.0.2",
+      "path": "packaging/licenses/packages/cryptography/0-LICENSE.txt",
+      "sha256": "3e0c7c091a948b82533ba98fd7cbb40432d6f1a9acbf85f5922d2f99a93ae6bb",
+      "source": "reviewed installed distribution: cryptography-50.0.2.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "docstring_parser",
+      "version": "0.18.0",
+      "path": "packaging/licenses/packages/docstring-parser/0-LICENSE.md.txt",
+      "sha256": "dfe514a337ae8417abd31a8af707bbd6172b03e5430bb083e145899ea97a3eea",
+      "source": "reviewed installed distribution: docstring_parser-0.18.0.dist-info/licenses/LICENSE.md"
+    },
+    {
+      "package": "fastapi",
+      "version": "0.143.0",
+      "path": "packaging/licenses/packages/fastapi/0-LICENSE.txt",
+      "sha256": "4ec89ffc81485b97fec584b2d4a961032eeffe834453894fd9c1274906cc744e",
+      "source": "reviewed installed distribution: fastapi-0.143.0.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "faster-whisper",
+      "version": "1.2.1",
+      "path": "packaging/licenses/packages/faster-whisper/0-LICENSE.txt",
+      "sha256": "af6798135e729f8aa6c853936d037dfdea449734d26b8ea6a89805fca758c0d5",
+      "source": "reviewed installed distribution: faster_whisper-1.2.1.dist-info/LICENSE"
+    },
+    {
+      "package": "filelock",
+      "version": "4.1.1",
+      "path": "packaging/licenses/packages/filelock/0-LICENSE.txt",
+      "sha256": "608c89d5060ae9921adccf3236695bc654a9946e12323ef6c021dfa04e294d48",
+      "source": "reviewed installed distribution: filelock-4.1.1.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "fsspec",
+      "version": "2026.9.0",
+      "path": "packaging/licenses/packages/fsspec/0-LICENSE.txt",
+      "sha256": "2dc35496ce53a7307915c008a844aad53e772b49b34cdd00445067691407ec94",
+      "source": "reviewed installed distribution: fsspec-2026.9.0.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "h11",
+      "version": "0.16.0",
+      "path": "packaging/licenses/packages/h11/0-LICENSE.txt.txt",
+      "sha256": "37db5bb85926db28a427a25867f10b1232003aea1be69ccb851138adb8e6f361",
+      "source": "reviewed installed distribution: h11-0.16.0.dist-info/licenses/LICENSE.txt"
+    },
+    {
+      "package": "hf-xet",
+      "version": "1.7.0",
+      "path": "packaging/licenses/packages/hf-xet/0-LICENSE.txt",
+      "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+      "source": "reviewed installed distribution: hf_xet-1.7.0.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "httpcore",
+      "version": "1.0.9",
+      "path": "packaging/licenses/packages/httpcore/0-LICENSE.md.txt",
+      "sha256": "fdcb59154c74cbaba16a11242f7740bea9f23d6feb5547917d8c5f94a80392a5",
+      "source": "reviewed installed distribution: httpcore-1.0.9.dist-info/licenses/LICENSE.md"
+    },
+    {
+      "package": "httpcore2",
+      "version": "2.13.1",
+      "path": "packaging/licenses/packages/httpcore2/0-LICENSE.md.txt",
+      "sha256": "c4df125c807b0613501e943a5c92496dd11d2c16604ce396097a8dde396304d9",
+      "source": "reviewed installed distribution: httpcore2-2.13.1.dist-info/licenses/LICENSE.md"
+    },
+    {
+      "package": "httpx",
+      "version": "0.28.1",
+      "path": "packaging/licenses/packages/httpx/0-LICENSE.md.txt",
+      "sha256": "4ec59d544f12b5f539a3a716fd321ac58ccd8030b465221f2c880200cdf28d8d",
+      "source": "reviewed installed distribution: httpx-0.28.1.dist-info/licenses/LICENSE.md"
+    },
+    {
+      "package": "httpx2",
+      "version": "2.13.1",
+      "path": "packaging/licenses/packages/httpx2/0-LICENSE.md.txt",
+      "sha256": "7e7d6dbaf7fe160d39fd6e84fd02c33cab96bcbea34d36998d545bceb4a19c30",
+      "source": "reviewed installed distribution: httpx2-2.13.1.dist-info/licenses/LICENSE.md"
+    },
+    {
+      "package": "huggingface_hub",
+      "version": "2.2.0",
+      "path": "packaging/licenses/packages/huggingface-hub/0-LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "source": "reviewed installed distribution: huggingface_hub-2.2.0.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "idna",
+      "version": "3.20",
+      "path": "packaging/licenses/packages/idna/0-LICENSE.md.txt",
+      "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04",
+      "source": "reviewed installed distribution: idna-3.20.dist-info/licenses/LICENSE.md"
+    },
+    {
+      "package": "iniconfig",
+      "version": "2.3.1",
+      "path": "packaging/licenses/packages/iniconfig/0-LICENSE.txt",
+      "sha256": "3409fa91f7ace557894632676656e32264fe5ef7581535725dc9a23774551bd4",
+      "source": "reviewed installed distribution: iniconfig-2.3.1.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "jiter",
+      "version": "0.17.0",
+      "path": "packaging/licenses/packages/jiter/0-LICENSE.txt",
+      "sha256": "e65c152aa65deaaa52019855bf1bbce4a0d592a048cb523b6ca691965741241e",
+      "source": "reviewed installed distribution: jiter-0.17.0.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "numpy",
+      "version": "2.5.4",
+      "path": "packaging/licenses/packages/numpy/0-LICENSE.txt.txt",
+      "sha256": "a804dff0ead9fadc5293456410bcbfc32bf024be9c4513459663fb7b442d2341",
+      "source": "reviewed installed distribution: numpy-2.5.4.dist-info/licenses/LICENSE.txt"
+    },
+    {
+      "package": "numpy",
+      "version": "2.5.4",
+      "path": "packaging/licenses/packages/numpy/1-LICENSE.txt.txt",
+      "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150",
+      "source": "reviewed installed distribution: numpy-2.5.4.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt"
+    },
+    {
+      "package": "numpy",
+      "version": "2.5.4",
+      "path": "packaging/licenses/packages/numpy/2-COPYING.txt",
+      "sha256": "aea41976c720f91bd19725c16916a1ace40eb1ea42620d340e587a5de4bbcea0",
+      "source": "reviewed installed distribution: numpy-2.5.4.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING"
+    },
+    {
+      "package": "numpy",
+      "version": "2.5.4",
+      "path": "packaging/licenses/packages/numpy/3-LICENSE.txt",
+      "sha256": "d208152e2777ffd0126eacc1bd21c0320d69e4e6b622d21a2a12a47e8ef73763",
+      "source": "reviewed installed distribution: numpy-2.5.4.dist-info/licenses/numpy/_core/src/highway/LICENSE"
+    },
+    {
+      "package": "numpy",
+      "version": "2.5.4",
+      "path": "packaging/licenses/packages/numpy/4-dragon4_LICENSE.txt.txt",
+      "sha256": "b0fd592d4ead563148e3977e7b589169d46a5ef2ff133c755a81af880a3fc919",
+      "source": "reviewed installed distribution: numpy-2.5.4.dist-info/licenses/numpy/_core/src/multiarray/dragon4_LICENSE.txt"
+    },
+    {
+      "package": "numpy",
+      "version": "2.5.4",
+      "path": "packaging/licenses/packages/numpy/5-LICENSE.md.txt",
+      "sha256": "a732977853530066790c42817087f4829b518dd98d340c916acbfd227e39d3cb",
+      "source": "reviewed installed distribution: numpy-2.5.4.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md"
+    },
+    {
+      "package": "numpy",
+      "version": "2.5.4",
+      "path": "packaging/licenses/packages/numpy/6-LICENSE.txt",
+      "sha256": "585483905b13d4b42f800c55ba99e89d6e2e33ccd5f503e201c07531d148ff41",
+      "source": "reviewed installed distribution: numpy-2.5.4.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE"
+    },
+    {
+      "package": "numpy",
+      "version": "2.5.4",
+      "path": "packaging/licenses/packages/numpy/7-LICENSE.md.txt",
+      "sha256": "8db000e158c162e7249787852d8c69764706502ccee725c06641b31c1e95c8af",
+      "source": "reviewed installed distribution: numpy-2.5.4.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md"
+    },
+    {
+      "package": "numpy",
+      "version": "2.5.4",
+      "path": "packaging/licenses/packages/numpy/8-LICENSE.txt.txt",
+      "sha256": "19060ef465e1797d682ee0fc3081bd25ab1395e995e43d25c9d13c95d9a3cd6b",
+      "source": "reviewed installed distribution: numpy-2.5.4.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt"
+    },
+    {
+      "package": "numpy",
+      "version": "2.5.4",
+      "path": "packaging/licenses/packages/numpy/9-LICENSE.txt",
+      "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7",
+      "source": "reviewed installed distribution: numpy-2.5.4.dist-info/licenses/numpy/ma/LICENSE"
+    },
+    {
+      "package": "numpy",
+      "version": "2.5.4",
+      "path": "packaging/licenses/packages/numpy/10-LICENSE.md.txt",
+      "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a",
+      "source": "reviewed installed distribution: numpy-2.5.4.dist-info/licenses/numpy/random/LICENSE.md"
+    },
+    {
+      "package": "numpy",
+      "version": "2.5.4",
+      "path": "packaging/licenses/packages/numpy/11-LICENSE.md.txt",
+      "sha256": "cf5619f25b112d5ce7c896efffc8e610bcb345dfadcc19f2c1460aa48fff2c9e",
+      "source": "reviewed installed distribution: numpy-2.5.4.dist-info/licenses/numpy/random/src/distributions/LICENSE.md"
+    },
+    {
+      "package": "numpy",
+      "version": "2.5.4",
+      "path": "packaging/licenses/packages/numpy/12-LICENSE.md.txt",
+      "sha256": "92c10699884321f1c2947fe2a70ab23b0fbf1507f756d89dd08f38c61fc3d4fa",
+      "source": "reviewed installed distribution: numpy-2.5.4.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md"
+    },
+    {
+      "package": "numpy",
+      "version": "2.5.4",
+      "path": "packaging/licenses/packages/numpy/13-LICENSE.md.txt",
+      "sha256": "41190663b77bee5302386495a07b7eabfbfa571aa0ae2f11da6764162062fc4f",
+      "source": "reviewed installed distribution: numpy-2.5.4.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md"
+    },
+    {
+      "package": "numpy",
+      "version": "2.5.4",
+      "path": "packaging/licenses/packages/numpy/14-LICENSE.md.txt",
+      "sha256": "322ac46d870c8aeead6c53adcccc839296fb3c8e456eae155081297daf7f8013",
+      "source": "reviewed installed distribution: numpy-2.5.4.dist-info/licenses/numpy/random/src/philox/LICENSE.md"
+    },
+    {
+      "package": "numpy",
+      "version": "2.5.4",
+      "path": "packaging/licenses/packages/numpy/15-LICENSE.md.txt",
+      "sha256": "28cad82ce1379dc529df30da78ec012d7d0d1d576b03ddcb93388aee53659f59",
+      "source": "reviewed installed distribution: numpy-2.5.4.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md"
+    },
+    {
+      "package": "numpy",
+      "version": "2.5.4",
+      "path": "packaging/licenses/packages/numpy/16-LICENSE.md.txt",
+      "sha256": "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763",
+      "source": "reviewed installed distribution: numpy-2.5.4.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md"
+    },
+    {
+      "package": "numpy",
+      "version": "2.5.4",
+      "path": "packaging/licenses/packages/numpy/17-LICENSE.txt.txt",
+      "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150",
+      "source": "reviewed installed distribution: numpy/_core/include/numpy/random/LICENSE.txt"
+    },
+    {
+      "package": "numpy",
+      "version": "2.5.4",
+      "path": "packaging/licenses/packages/numpy/18-LICENSE.txt",
+      "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7",
+      "source": "reviewed installed distribution: numpy/ma/LICENSE"
+    },
+    {
+      "package": "numpy",
+      "version": "2.5.4",
+      "path": "packaging/licenses/packages/numpy/19-LICENSE.md.txt",
+      "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a",
+      "source": "reviewed installed distribution: numpy/random/LICENSE.md"
+    },
+    {
+      "package": "onnxruntime",
+      "version": "1.31.0",
+      "path": "packaging/licenses/packages/onnxruntime/0-LICENSE.txt",
+      "sha256": "c250d6278f0b47a6439fb7592b08b58a55eb9f535aa49a1db63211c3f982b674",
+      "source": "reviewed installed distribution: onnxruntime/LICENSE"
+    },
+    {
+      "package": "opentelemetry-api",
+      "version": "1.45.1",
+      "path": "packaging/licenses/packages/opentelemetry-api/0-LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "source": "reviewed installed distribution: opentelemetry_api-1.45.1.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "packaging",
+      "version": "26.3",
+      "path": "packaging/licenses/packages/packaging/0-LICENSE.txt",
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "source": "reviewed installed distribution: packaging-26.3.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "pefile",
+      "version": "2024.8.26",
+      "path": "packaging/licenses/packages/pefile/0-LICENSE.txt",
+      "sha256": "b44409c067c6da52bfb54bb6624fb11a7b52157c3a13ae1400232f8196e86ad3",
+      "source": "reviewed installed distribution: pefile-2024.8.26.dist-info/LICENSE"
+    },
+    {
+      "package": "pillow",
+      "version": "12.3.0",
+      "path": "packaging/licenses/packages/pillow/0-LICENSE.txt",
+      "sha256": "4f7866a74802c6326f81faff59a56546b6aec2b10b91973e0e9308de95e79857",
+      "source": "reviewed installed distribution: pillow-12.3.0.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/0-AUTHORS.txt.txt",
+      "sha256": "4eb1fb1705e2def898e81bcba19c3aac80620d27ba3569d6a6df7b4629d1b5c2",
+      "source": "reviewed installed distribution: pip-26.2.1.dist-info/licenses/AUTHORS.txt"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/1-LICENSE.txt.txt",
+      "sha256": "634300a669d49aeae65b12c6c48c924c51a4cdf3d1ff086dc3456dc8bcaa2104",
+      "source": "reviewed installed distribution: pip-26.2.1.dist-info/licenses/LICENSE.txt"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/2-LICENSE.txt.txt",
+      "sha256": "86eeee87be2a43f3ff1f56496f451f69243926f025fedbb033666c304c4c161b",
+      "source": "reviewed installed distribution: pip-26.2.1.dist-info/licenses/src/pip/_vendor/cachecontrol/LICENSE.txt"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/3-LICENSE.txt",
+      "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7",
+      "source": "reviewed installed distribution: pip-26.2.1.dist-info/licenses/src/pip/_vendor/certifi/LICENSE"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/4-LICENSE.txt.txt",
+      "sha256": "808e10c8a6ab8deb149ff9b3fb19f447a808094606d712a9ca57fead3552599d",
+      "source": "reviewed installed distribution: pip-26.2.1.dist-info/licenses/src/pip/_vendor/distlib/LICENSE.txt"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/5-LICENSE.txt",
+      "sha256": "cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14",
+      "source": "reviewed installed distribution: pip-26.2.1.dist-info/licenses/src/pip/_vendor/distro/LICENSE"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/6-LICENSE.md.txt",
+      "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04",
+      "source": "reviewed installed distribution: pip-26.2.1.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/7-COPYING.txt",
+      "sha256": "492dedba85da5872f78e6091bcd1fea474d660d35acb4dee964b8aab3f007427",
+      "source": "reviewed installed distribution: pip-26.2.1.dist-info/licenses/src/pip/_vendor/msgpack/COPYING"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/8-LICENSE.txt",
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "source": "reviewed installed distribution: pip-26.2.1.dist-info/licenses/src/pip/_vendor/packaging/LICENSE"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/9-LICENSE.txt",
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+      "source": "reviewed installed distribution: pip-26.2.1.dist-info/licenses/src/pip/_vendor/pkg_resources/LICENSE"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/10-LICENSE.txt",
+      "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6",
+      "source": "reviewed installed distribution: pip-26.2.1.dist-info/licenses/src/pip/_vendor/platformdirs/LICENSE"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/11-LICENSE.txt",
+      "sha256": "a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17",
+      "source": "reviewed installed distribution: pip-26.2.1.dist-info/licenses/src/pip/_vendor/pygments/LICENSE"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/12-LICENSE.txt",
+      "sha256": "1b22b049b5267d6dfc23a67bf4a84d8ec04b9fdfb1a51d360e42b4342c8b4154",
+      "source": "reviewed installed distribution: pip-26.2.1.dist-info/licenses/src/pip/_vendor/pyproject_hooks/LICENSE"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/13-LICENSE.txt",
+      "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+      "source": "reviewed installed distribution: pip-26.2.1.dist-info/licenses/src/pip/_vendor/requests/LICENSE"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/14-LICENSE.txt",
+      "sha256": "f388fd38cad13112c1dc0f669bbe80e7f84541edbafb72f3030d2ca7642c3c9d",
+      "source": "reviewed installed distribution: pip-26.2.1.dist-info/licenses/src/pip/_vendor/resolvelib/LICENSE"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/15-LICENSE.txt",
+      "sha256": "deed7c17a4318158190a3ea239cc879a5a50271cebb98ae7025f48fbe58dca15",
+      "source": "reviewed installed distribution: pip-26.2.1.dist-info/licenses/src/pip/_vendor/rich/LICENSE"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/16-LICENSE.txt",
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+      "source": "reviewed installed distribution: pip-26.2.1.dist-info/licenses/src/pip/_vendor/tomli/LICENSE"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/17-LICENSE.txt",
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+      "source": "reviewed installed distribution: pip-26.2.1.dist-info/licenses/src/pip/_vendor/tomli_w/LICENSE"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/18-LICENSE.txt",
+      "sha256": "33be7b7e8fa4fd19b1760e1a8ed8a668bdab852c91b692dd41424bcb725a9fca",
+      "source": "reviewed installed distribution: pip-26.2.1.dist-info/licenses/src/pip/_vendor/truststore/LICENSE"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/19-LICENSE.txt.txt",
+      "sha256": "130e3a64d5fdd5d096a752694634a7d9df284469de86e5732100268041e3d686",
+      "source": "reviewed installed distribution: pip-26.2.1.dist-info/licenses/src/pip/_vendor/urllib3/LICENSE.txt"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/20-LICENSE.txt.txt",
+      "sha256": "86eeee87be2a43f3ff1f56496f451f69243926f025fedbb033666c304c4c161b",
+      "source": "reviewed installed distribution: pip/_vendor/cachecontrol/LICENSE.txt"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/21-LICENSE.txt",
+      "sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7",
+      "source": "reviewed installed distribution: pip/_vendor/certifi/LICENSE"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/22-LICENSE.txt.txt",
+      "sha256": "808e10c8a6ab8deb149ff9b3fb19f447a808094606d712a9ca57fead3552599d",
+      "source": "reviewed installed distribution: pip/_vendor/distlib/LICENSE.txt"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/23-LICENSE.txt",
+      "sha256": "cb5e8e7e5f4a3988e1063c142c60dc2df75605f4c46515e776e3aca6df976e14",
+      "source": "reviewed installed distribution: pip/_vendor/distro/LICENSE"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/24-LICENSE.md.txt",
+      "sha256": "1a9a4f0e3d479a27240ddd59a9137a66ab4a0f9dfdc8ca6188cc0bfd85187f04",
+      "source": "reviewed installed distribution: pip/_vendor/idna/LICENSE.md"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/25-COPYING.txt",
+      "sha256": "492dedba85da5872f78e6091bcd1fea474d660d35acb4dee964b8aab3f007427",
+      "source": "reviewed installed distribution: pip/_vendor/msgpack/COPYING"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/26-LICENSE.txt",
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "source": "reviewed installed distribution: pip/_vendor/packaging/LICENSE"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/27-LICENSE.txt",
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+      "source": "reviewed installed distribution: pip/_vendor/pkg_resources/LICENSE"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/28-LICENSE.txt",
+      "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6",
+      "source": "reviewed installed distribution: pip/_vendor/platformdirs/LICENSE"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/29-LICENSE.txt",
+      "sha256": "a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17",
+      "source": "reviewed installed distribution: pip/_vendor/pygments/LICENSE"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/30-LICENSE.txt",
+      "sha256": "1b22b049b5267d6dfc23a67bf4a84d8ec04b9fdfb1a51d360e42b4342c8b4154",
+      "source": "reviewed installed distribution: pip/_vendor/pyproject_hooks/LICENSE"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/31-LICENSE.txt",
+      "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+      "source": "reviewed installed distribution: pip/_vendor/requests/LICENSE"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/32-LICENSE.txt",
+      "sha256": "f388fd38cad13112c1dc0f669bbe80e7f84541edbafb72f3030d2ca7642c3c9d",
+      "source": "reviewed installed distribution: pip/_vendor/resolvelib/LICENSE"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/33-LICENSE.txt",
+      "sha256": "deed7c17a4318158190a3ea239cc879a5a50271cebb98ae7025f48fbe58dca15",
+      "source": "reviewed installed distribution: pip/_vendor/rich/LICENSE"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/34-LICENSE.txt",
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+      "source": "reviewed installed distribution: pip/_vendor/tomli/LICENSE"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/35-LICENSE.txt",
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+      "source": "reviewed installed distribution: pip/_vendor/tomli_w/LICENSE"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/36-LICENSE.txt",
+      "sha256": "33be7b7e8fa4fd19b1760e1a8ed8a668bdab852c91b692dd41424bcb725a9fca",
+      "source": "reviewed installed distribution: pip/_vendor/truststore/LICENSE"
+    },
+    {
+      "package": "pip",
+      "version": "26.2.1",
+      "path": "packaging/licenses/packages/pip/37-LICENSE.txt.txt",
+      "sha256": "130e3a64d5fdd5d096a752694634a7d9df284469de86e5732100268041e3d686",
+      "source": "reviewed installed distribution: pip/_vendor/urllib3/LICENSE.txt"
+    },
+    {
+      "package": "pluggy",
+      "version": "1.6.0",
+      "path": "packaging/licenses/packages/pluggy/0-LICENSE.txt",
+      "sha256": "d6b65e6c213a5d0b577911d34d6e5949b9f59d76c238c5071a2f3fc16cfb2606",
+      "source": "reviewed installed distribution: pluggy-1.6.0.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "protobuf",
+      "version": "7.36.2",
+      "path": "packaging/licenses/packages/protobuf/0-LICENSE.txt",
+      "sha256": "6e5e117324afd944dcf67f36cf329843bc1a92229a8cd9bb573d7a83130fea7d",
+      "source": "reviewed installed distribution: protobuf-7.36.2.dist-info/LICENSE"
+    },
+    {
+      "package": "psutil",
+      "version": "7.2.2",
+      "path": "packaging/licenses/packages/psutil/0-LICENSE.txt",
+      "sha256": "c7adc4d5d1337a548b967421f1fbe258b93033a0417708fd6f4e38f8ecbceb80",
+      "source": "reviewed installed distribution: psutil-7.2.2.dist-info/LICENSE"
+    },
+    {
+      "package": "pycparser",
+      "version": "3.11",
+      "path": "packaging/licenses/packages/pycparser/0-LICENSE.txt",
+      "sha256": "0a9e78156ae8b96caf1b4f11ac2df424b83de29736f9e757630548a6272fdf90",
+      "source": "reviewed installed distribution: pycparser-3.11.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "pydantic",
+      "version": "2.14.0",
+      "path": "packaging/licenses/packages/pydantic/0-LICENSE.txt",
+      "sha256": "a9e186f3ca16b5eef84318e7a701721351a00cb7b8ae3a4394b67b49e3529ef3",
+      "source": "reviewed installed distribution: pydantic-2.14.0.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "pydantic_core",
+      "version": "2.50.0",
+      "path": "packaging/licenses/packages/pydantic-core/0-LICENSE.txt",
+      "sha256": "fbe7f615f18d135c07000e5a86325db27f42c7729699ef166ac1f7a3f4586bf4",
+      "source": "reviewed installed distribution: pydantic_core-2.50.0.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "Pygments",
+      "version": "2.21.0",
+      "path": "packaging/licenses/packages/pygments/0-AUTHORS.txt",
+      "sha256": "71a83872ad82f57be692cf827e048e2cd51d45169cfa1ea3f28706d97a872c0f",
+      "source": "reviewed installed distribution: pygments-2.21.0.dist-info/licenses/AUTHORS"
+    },
+    {
+      "package": "Pygments",
+      "version": "2.21.0",
+      "path": "packaging/licenses/packages/pygments/1-LICENSE.txt",
+      "sha256": "a9d66f1d526df02e29dce73436d34e56e8632f46c275bbdffc70569e882f9f17",
+      "source": "reviewed installed distribution: pygments-2.21.0.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "pyinstaller",
+      "version": "6.22.3",
+      "path": "packaging/licenses/packages/pyinstaller/0-COPYING.txt.txt",
+      "sha256": "0598064c7d2718e38d7914a7d08343b2fa008e3bea9ebba2aa7a6ffa5900dd64",
+      "source": "reviewed installed distribution: pyinstaller-6.22.3.dist-info/licenses/COPYING.txt"
+    },
+    {
+      "package": "pyinstaller-hooks-contrib",
+      "version": "2026.8",
+      "path": "packaging/licenses/packages/pyinstaller-hooks-contrib/0-LICENSE.txt",
+      "sha256": "91d0baaff00773038e72c0a1fc9d5d2d38706b7a2b9c04f34296608f931b9cd0",
+      "source": "reviewed installed distribution: pyinstaller_hooks_contrib-2026.8.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "pystray",
+      "version": "0.19.5",
+      "path": "packaging/licenses/packages/pystray/0-COPYING.txt",
+      "sha256": "1e4d0c2eb111b851de12d7b2737195b950fae3620d2a23a474ce8d46e1d2e4b6",
+      "source": "reviewed installed distribution: pystray-0.19.5.dist-info/COPYING"
+    },
+    {
+      "package": "pytest",
+      "version": "9.1.1",
+      "path": "packaging/licenses/packages/pytest/0-LICENSE.txt",
+      "sha256": "ca836a5f9ecca3b2f350230faa20a48fb8b145653b5568d784862df864706b9b",
+      "source": "reviewed installed distribution: pytest-9.1.1.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "pywin32-ctypes",
+      "version": "0.2.3",
+      "path": "packaging/licenses/packages/pywin32-ctypes/0-LICENSE.txt.txt",
+      "sha256": "dfa83b3e2709adfcdb838d9ad55823ca674abb780e60563d9dd9544ccbf785e9",
+      "source": "reviewed installed distribution: pywin32_ctypes-0.2.3.dist-info/LICENSE.txt"
+    },
+    {
+      "package": "PyYAML",
+      "version": "6.0.3",
+      "path": "packaging/licenses/packages/pyyaml/0-LICENSE.txt",
+      "sha256": "8d3928f9dc4490fd635707cb88eb26bd764102a7282954307d3e5167a577e8a4",
+      "source": "reviewed installed distribution: pyyaml-6.0.3.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "requests",
+      "version": "2.34.2",
+      "path": "packaging/licenses/packages/requests/0-LICENSE.txt",
+      "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+      "source": "reviewed installed distribution: requests-2.34.2.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "requests",
+      "version": "2.34.2",
+      "path": "packaging/licenses/packages/requests/1-NOTICE.txt",
+      "sha256": "f5110972dedad2b4e9d314518daf3b7d72d6e02e499acd802181de6f74571dcc",
+      "source": "reviewed installed distribution: requests-2.34.2.dist-info/licenses/NOTICE"
+    },
+    {
+      "package": "setuptools",
+      "version": "84.0.0",
+      "path": "packaging/licenses/packages/setuptools/0-LICENSE.txt",
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+      "source": "reviewed installed distribution: setuptools-84.0.0.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "setuptools",
+      "version": "84.0.0",
+      "path": "packaging/licenses/packages/setuptools/1-LICENSE.txt",
+      "sha256": "ade78d04982d69972d444a8e14a94f87a2334dd3855cc80348ea8e240aa0df2d",
+      "source": "reviewed installed distribution: setuptools/_vendor/autocommand-2.2.2.dist-info/LICENSE"
+    },
+    {
+      "package": "setuptools",
+      "version": "84.0.0",
+      "path": "packaging/licenses/packages/setuptools/2-LICENSE.txt",
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+      "source": "reviewed installed distribution: setuptools/_vendor/backports.tarfile-1.2.0.dist-info/LICENSE"
+    },
+    {
+      "package": "setuptools",
+      "version": "84.0.0",
+      "path": "packaging/licenses/packages/setuptools/3-LICENSE.txt",
+      "sha256": "458502e12d97bbf64438606a20044aa85eb05fb0a8a807bb35dbec253fd1fc04",
+      "source": "reviewed installed distribution: setuptools/_vendor/importlib_metadata-8.7.1.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "setuptools",
+      "version": "84.0.0",
+      "path": "packaging/licenses/packages/setuptools/4-LICENSE.txt",
+      "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+      "source": "reviewed installed distribution: setuptools/_vendor/jaraco.text-4.0.0.dist-info/LICENSE"
+    },
+    {
+      "package": "setuptools",
+      "version": "84.0.0",
+      "path": "packaging/licenses/packages/setuptools/5-LICENSE.txt",
+      "sha256": "9755a18519666e5f0f4cae3daad3d7012bcae48a600b31237d75e9fe134e6683",
+      "source": "reviewed installed distribution: setuptools/_vendor/jaraco_context-6.1.0.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "setuptools",
+      "version": "84.0.0",
+      "path": "packaging/licenses/packages/setuptools/6-LICENSE.txt",
+      "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d",
+      "source": "reviewed installed distribution: setuptools/_vendor/jaraco_functools-4.4.0.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "setuptools",
+      "version": "84.0.0",
+      "path": "packaging/licenses/packages/setuptools/7-LICENSE.txt",
+      "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+      "source": "reviewed installed distribution: setuptools/_vendor/more_itertools-10.8.0.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "setuptools",
+      "version": "84.0.0",
+      "path": "packaging/licenses/packages/setuptools/8-LICENSE.txt",
+      "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "source": "reviewed installed distribution: setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "setuptools",
+      "version": "84.0.0",
+      "path": "packaging/licenses/packages/setuptools/9-LICENSE.txt",
+      "sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6",
+      "source": "reviewed installed distribution: setuptools/_vendor/platformdirs-4.4.0.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "setuptools",
+      "version": "84.0.0",
+      "path": "packaging/licenses/packages/setuptools/10-LICENSE.txt",
+      "sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+      "source": "reviewed installed distribution: setuptools/_vendor/tomli-2.4.0.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "setuptools",
+      "version": "84.0.0",
+      "path": "packaging/licenses/packages/setuptools/11-LICENSE.txt.txt",
+      "sha256": "30c23618679108f3e8ea1d2a658c7ca417bdfc891c98ef1a89fa4ff0c9828654",
+      "source": "reviewed installed distribution: setuptools/_vendor/wheel-0.46.3.dist-info/licenses/LICENSE.txt"
+    },
+    {
+      "package": "setuptools",
+      "version": "84.0.0",
+      "path": "packaging/licenses/packages/setuptools/12-LICENSE.txt",
+      "sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d",
+      "source": "reviewed installed distribution: setuptools/_vendor/zipp-3.23.0.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "setuptools",
+      "version": "84.0.0",
+      "path": "packaging/licenses/packages/setuptools/13-NOTICE.txt",
+      "sha256": "2dddf08818297a3b89d43d95ff659d8da85741108c9136dfa3a4d856c0623bd8",
+      "source": "reviewed installed distribution: setuptools/config/NOTICE"
+    },
+    {
+      "package": "setuptools",
+      "version": "84.0.0",
+      "path": "packaging/licenses/packages/setuptools/14-NOTICE.txt",
+      "sha256": "09c9bcea95ca086f8bc5bed174e40bc835b297d40fb5f86bbbb570fe0a5581a7",
+      "source": "reviewed installed distribution: setuptools/config/_validate_pyproject/NOTICE"
+    },
+    {
+      "package": "six",
+      "version": "1.17.0",
+      "path": "packaging/licenses/packages/six/0-LICENSE.txt",
+      "sha256": "4375ba20e2b9c6c4e7cad2940a628fd90e95cc3d50ee92aae755715d8ba1fbd0",
+      "source": "reviewed installed distribution: six-1.17.0.dist-info/LICENSE"
+    },
+    {
+      "package": "sniffio",
+      "version": "1.3.1",
+      "path": "packaging/licenses/packages/sniffio/0-LICENSE.txt",
+      "sha256": "652c878488d1456361e08c3f8607fd7ba59892a14103d15cce4ff93c85b5cc8b",
+      "source": "reviewed installed distribution: sniffio-1.3.1.dist-info/LICENSE"
+    },
+    {
+      "package": "starlette",
+      "version": "1.7.0",
+      "path": "packaging/licenses/packages/starlette/0-LICENSE.md.txt",
+      "sha256": "dcb95677a02240243187e964f941847d19b17821cf99e5afae684fab328c19bf",
+      "source": "reviewed installed distribution: starlette-1.7.0.dist-info/licenses/LICENSE.md"
+    },
+    {
+      "package": "stripe",
+      "version": "16.0.0",
+      "path": "packaging/licenses/packages/stripe/0-LICENSE.txt",
+      "sha256": "8b28bcffabe88a728cc48d37d907bd75febd0ee725fd774946912dca31bc6027",
+      "source": "reviewed installed distribution: stripe-16.0.0.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "tqdm",
+      "version": "4.70.1",
+      "path": "packaging/licenses/packages/tqdm/0-LICENCE.txt",
+      "sha256": "fcff87c3a47ce8028a8512aa182d4fcf0ad1c90544ee75cf9b343684cac194de",
+      "source": "reviewed installed distribution: tqdm-4.70.1.dist-info/licenses/LICENCE"
+    },
+    {
+      "package": "truststore",
+      "version": "0.10.4",
+      "path": "packaging/licenses/packages/truststore/0-LICENSE.txt",
+      "sha256": "33be7b7e8fa4fd19b1760e1a8ed8a668bdab852c91b692dd41424bcb725a9fca",
+      "source": "reviewed installed distribution: truststore-0.10.4.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "typing-inspection",
+      "version": "0.4.4",
+      "path": "packaging/licenses/packages/typing-inspection/0-LICENSE.txt",
+      "sha256": "804b59b25f2c31bd278f9202a19ae49a3945aa2664387e2d0a128c7cacc61ec3",
+      "source": "reviewed installed distribution: typing_inspection-0.4.4.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "typing_extensions",
+      "version": "4.16.0",
+      "path": "packaging/licenses/packages/typing-extensions/0-LICENSE.txt",
+      "sha256": "3b2f81fe21d181c499c59a256c8e1968455d6689d269aa85373bfb6af41da3bf",
+      "source": "reviewed installed distribution: typing_extensions-4.16.0.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "tzdata",
+      "version": "2026.5",
+      "path": "packaging/licenses/packages/tzdata/0-LICENSE.txt",
+      "sha256": "df58f69ea88683035d720b5375bcef0cf5aeaa98a1d098d572e0992c378deb46",
+      "source": "reviewed installed distribution: tzdata-2026.5.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "tzdata",
+      "version": "2026.5",
+      "path": "packaging/licenses/packages/tzdata/1-LICENSE_APACHE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "source": "reviewed installed distribution: tzdata-2026.5.dist-info/licenses/licenses/LICENSE_APACHE"
+    },
+    {
+      "package": "urllib3",
+      "version": "2.8.0",
+      "path": "packaging/licenses/packages/urllib3/0-LICENSE.txt.txt",
+      "sha256": "130e3a64d5fdd5d096a752694634a7d9df284469de86e5732100268041e3d686",
+      "source": "reviewed installed distribution: urllib3-2.8.0.dist-info/licenses/LICENSE.txt"
+    },
+    {
+      "package": "uvicorn",
+      "version": "0.54.0",
+      "path": "packaging/licenses/packages/uvicorn/0-LICENSE.md.txt",
+      "sha256": "efe1acf3e62fb99c288b0ec73e5a773b7268ef4320fe757ea994214e4b63c371",
+      "source": "reviewed installed distribution: uvicorn-0.54.0.dist-info/licenses/LICENSE.md"
+    },
+    {
+      "package": "yt-dlp",
+      "version": "2026.8.19",
+      "path": "packaging/licenses/packages/yt-dlp/0-LICENSE.txt",
+      "sha256": "7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c",
+      "source": "reviewed installed distribution: yt_dlp-2026.8.19.dist-info/licenses/LICENSE"
+    },
+    {
+      "package": "ctranslate2",
+      "version": "4.8.2",
+      "path": "packaging/licenses/packages/ctranslate2/upstream-LICENSE.txt",
+      "sha256": "54aa79d9fe3c09e67a16dcd95b9e88676405a6ec174efda31036983cf7672ecb",
+      "source": "https://raw.githubusercontent.com/OpenNMT/CTranslate2/d44d2d069eb88c7b7804da864c10c201501cb4a9/LICENSE",
+      "sourceCommit": "d44d2d069eb88c7b7804da864c10c201501cb4a9",
+      "sourceTag": "v4.8.2"
+    },
+    {
+      "package": "flatbuffers",
+      "version": "25.12.19",
+      "path": "packaging/licenses/packages/flatbuffers/upstream-LICENSE.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "source": "https://raw.githubusercontent.com/google/flatbuffers/7e163021e59cca4f8e1e35a7c828b5c6b7915953/LICENSE",
+      "sourceCommit": "7e163021e59cca4f8e1e35a7c828b5c6b7915953",
+      "sourceTag": "v25.12.19"
+    },
+    {
+      "package": "tokenizers",
+      "version": "0.23.3",
+      "path": "packaging/licenses/packages/tokenizers/upstream-LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "source": "https://raw.githubusercontent.com/huggingface/tokenizers/301277072263fb3830eb66eec7e47adadf76f1dc/LICENSE",
+      "sourceCommit": "301277072263fb3830eb66eec7e47adadf76f1dc",
+      "sourceTag": "v0.23.3"
+    }
+  ]
+}
